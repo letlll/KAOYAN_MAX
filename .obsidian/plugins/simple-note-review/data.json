@@ -1,0 +1,41 @@
+{
+  "reviewedFieldName": "reviewed",
+  "reviewFrequencyFieldName": "review-frequency",
+  "noteSets": [
+    {
+      "id": "cac4779c-0ef9-4aa5-a45c-5a76b6a48e25",
+      "sortOrder": 2,
+      "displayName": "Algorithm Review",
+      "description": "matches notes that:  are matched with dataviewJS query #Algorithm; ; contain any of these tags: #Algorithm",
+      "name": "Algorithm Review",
+      "tags": [
+        "#Algorithm"
+      ],
+      "stats": {
+        "totalCount": 15,
+        "notRewiewedCount": 15,
+        "reviewedLastSevenDaysCount": 0,
+        "reviewedLastThirtyDaysCount": 0
+      },
+      "queue": {
+        "filenames": [
+          "算法复习/算法确/5. 流水作业调度.md",
+          "算法复习/算法确/4. 毕波那契.md",
+          "算法复习/算法确/3. 渐进阶的排序.md",
+          "算法复习/算法确/2. 各算法的基本思想，求解问题的步骤。.md",
+          "算法复习/算法确/1. 01 背包问题.md",
+          "算法复习/算法复习目录.md",
+          "算法复习/算法确/8. 贪心算法的证明.md",
+          "效率/笔记模板/算法.md"
+        ]
+      },
+      "validationErrors": [],
+      "dataviewQuery": "#Algorithm"
+    }
+  ],
+  "currentNoteSetId": "cac4779c-0ef9-4aa5-a45c-5a76b6a48e25",
+  "openNextNoteAfterReviewing": true,
+  "openRandomNote": false,
+  "useReviewFrequency": true,
+  "unreviewedNotesFirst": false
+}
