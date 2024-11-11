@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法复习/算法确/2/2.2.6 分支限界法.md",
+                "file": "Clippings/ChatGPT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.2.6 分支限界法"
+              "title": "ChatGPT"
             }
           },
           {
@@ -119,8 +119,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5,
-    "collapsed": true
+    "width": 213.5
   },
   "right": {
     "id": "63a2ce5635c7ad81",
@@ -221,6 +220,7 @@
   "active": "c10fa2a7f585c193",
   "lastOpenFiles": [
     "算法复习/算法确/2/2.2.6 分支限界法.md",
+    "Clippings/ChatGPT.md",
     "算法复习/算法确/2/2.2.5 回溯.md",
     "Clippings/HelloAlgo/13.4   N 皇后问题 - Hello 算法.md",
     "Clippings/HelloAlgo/13.1   回溯算法 - Hello 算法.md",
@@ -259,7 +259,6 @@
     "Clippings/web/11-10/Recursive Functions - GeeksforGeeks.md",
     "Clippings/web/11-10/Top MCQs on Recursion Algorithm with Answers 2.md",
     "Clippings/web/11-10/Top MCQs on Recursion Algorithm with Answers 1.md",
-    "Clippings/web/11-10/Top MCQs on Recursion Algorithm with Answers.md",
     "Clippings/web/11-10/assets",
     "Clippings/web/未命名.canvas",
     "Clippings/web/11-10",
