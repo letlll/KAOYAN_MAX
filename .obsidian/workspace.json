@@ -8,31 +8,59 @@
         "type": "tabs",
         "children": [
           {
-            "id": "845416a02ea7faef",
+            "id": "c10fa2a7f585c193",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法复习/算法确/9.O 的性质.md",
+                "file": "算法复习/算法确/2/2.2.6 分支限界法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9.O 的性质"
+              "title": "2.2.6 分支限界法"
             }
           },
           {
-            "id": "ba2e11bafbeda595",
+            "id": "0da6a044a7f11079",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法复习/算法确/公式砧板.md",
+                "file": "算法复习/算法确/2/2.0 基本思想.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "公式砧板"
+              "title": "2.0 基本思想"
+            }
+          },
+          {
+            "id": "d3f717c797d40d87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Clippings/HelloAlgo/13.1   回溯算法 - Hello 算法.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "13.1   回溯算法 - Hello 算法"
+            }
+          },
+          {
+            "id": "e94941f3768c67d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Clippings/HelloAlgo/13.4   N 皇后问题 - Hello 算法.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "13.4   N 皇后问题 - Hello 算法"
             }
           }
         ]
@@ -66,7 +94,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "path:\"算法复习/算法确/2/\" 分支限界法",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +119,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 213.5,
+    "collapsed": true
   },
   "right": {
     "id": "63a2ce5635c7ad81",
@@ -153,14 +182,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法复习/算法确/9.O 的性质.md"
+                "file": "算法复习/算法确/2/2.2.5 回溯.md"
               },
               "icon": "lucide-list",
-              "title": "9.O 的性质 的大纲"
+              "title": "2.2.5 回溯 的大纲"
             }
           },
           {
-            "id": "c969e1941d39b7bd",
+            "id": "92c4092ab27b2b0b",
             "type": "leaf",
             "state": {
               "type": "simple-note-review-sidebar-view",
@@ -170,11 +199,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 276.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,52 +218,54 @@
       "simple-note-review:Simple Note Review: Continue Review of Current Note Set": false
     }
   },
-  "active": "845416a02ea7faef",
+  "active": "c10fa2a7f585c193",
   "lastOpenFiles": [
-    "算法复习/算法确/9.2指数复杂度.md",
-    "算法复习/算法确/9.O 的性质.md",
-    "算法复习/算法确/9.O 的性质 1.1+.md",
-    "算法复习/算法确/9.O 的性质 1.1+.md.baiduyun.uploading.cfg",
-    "算法复习/算法确/5. 流水作业调度.md",
-    "算法复习/算法确/公式砧板.md",
-    "算法复习/算法确/8. 贪心算法的证明.md",
-    "算法复习/算法确/9.2 指数复杂度.md",
-    "算法复习/算法确/9.2 指数复杂度.md.baiduyun.uploading.cfg",
-    "算法复习/算法确/4. 毕波那契.md",
-    "算法复习/算法确/7. 装载问题.md.baiduyun.uploading.cfg",
-    "算法复习/算法确/6. 矩阵连乘.md.baiduyun.uploading.cfg",
-    "算法复习/算法确/6. 矩阵连乘.md",
-    "算法复习/算法确/7. 装载问题.md",
-    "算法复习/算法确/9.2指数复杂度.md.baiduyun.uploading.cfg",
-    "算法复习/算法补缺.md.baiduyun.uploading.cfg",
-    "算法复习/算法确/9.O 的性质.md.baiduyun.uploading.cfg",
-    "算法复习/算法目标.md.baiduyun.uploading.cfg",
-    "算法复习/算法目标.md",
-    "算法复习/算法补缺.md",
-    "算法复习/算法确/8. 贪心算法的证明.md.baiduyun.uploading.cfg",
-    "算法复习/算法确/9.O 的性质 1.md.baiduyun.uploading.cfg",
-    "Max/MDwriteTools/MathJax.md",
-    "算法SSS/复习.md",
-    "Max/论文/Chat-Latex.md",
-    "算法SSS/PPTTurnINFO/信息库/ONE2.1.md",
-    "算法SSS/PPTTurnINFO/信息库/TWO 2.1.md",
-    "算法SSS/PPTTurnINFO/信息库/Three 2.1.md",
-    "算法SSS/PPTTurnINFO/信息库/Six2.0 1.md",
-    "算法SSS/PPTTurnINFO/信息库/Six2.0.md",
-    "算法SSS/PPTTurnINFO/信息库/Five 2.0.md",
-    "算法SSS/PPTTurnINFO/信息库/Four 2.0.md",
-    "算法SSS/江苏大学/动态规划/LCS.md",
+    "算法复习/算法确/2/2.2.6 分支限界法.md",
+    "算法复习/算法确/2/2.2.5 回溯.md",
+    "Clippings/HelloAlgo/13.4   N 皇后问题 - Hello 算法.md",
+    "Clippings/HelloAlgo/13.1   回溯算法 - Hello 算法.md",
+    "算法复习/算法确/2/2.0 基本思想.md",
+    "Clippings/TALKchatgpt/ChatGPT.md",
+    "Clippings/assets/Pasted image 20241110225033.png",
+    "assets/Pasted image 20241110224935.png",
+    "assets/Pasted image 20241110224742.png",
+    "assets/Pasted image 20241110224528.png",
+    "assets/Pasted image 20241110224522.png",
+    "assets/Pasted image 20241110224517.png",
+    "assets/Pasted image 20241110224503.png",
+    "assets/Pasted image 20241110224459.png",
+    "assets/Pasted image 20241110224456.png",
+    "assets/Pasted image 20241110224451.png",
+    "算法SSS/江苏大学/题型分析.md",
+    "Clippings/HelloAlgo",
+    "assets",
+    "Clippings/哔哩哔哩 (゜-゜)つロ 干杯~-bilibili.md",
+    "算法复习/HELLOALGO.md",
+    "Clippings/web/11-10/算法-递归算法_什么是递归算法递归算法的特点-CSDN博客.md",
+    "潦草学者.md",
+    "Clippings/web/11-10/教你快速导出 ChatGPT 对话数据！_怎样导出chatgpt的内容-CSDN博客.md",
+    "算法复习/算法确/2/2.2.4 贪心算法.md",
+    "Clippings/TALKchatgpt/11-10",
+    "Clippings/web/11-10/N Queen Problem - GeeksforGeeks.md",
+    "效率/视频高效.md",
+    "效率/笔记模板/我用 5 分钟，读完了 80 分钟的视频 - 少数派 1.md",
+    "Clippings/web/11-10/我用 5 分钟，读完了 80 分钟的视频 - 少数派.md",
+    "Clippings/assets",
+    "算法SSS/REVIEW/搜索.md",
     "算法SSS/江苏大学/修复：题型分析.md",
-    "算法SSS/江苏大学/题型整理（详细）.md",
-    "算法SSS/PPTTurnINFO/assets/屏幕截图 2024-11-01 103500.png",
-    "算法SSS/PPTTurnINFO/assets/屏幕截图 2024-11-01 103452.png",
-    "算法SSS/PPTTurnINFO/assets/屏幕截图 2024-11-01 103439.png",
-    "算法SSS/6/assets/Pasted image 20241023104844.png",
-    "算法SSS/6/assets/Pasted image 20241023104837.png",
-    "算法SSS/6/assets/Pasted image 20241023104802.png",
-    "算法SSS/6/assets/Pasted image 20241023104754.png",
-    "算法SSS/6/assets/Pasted image 20241023104733.png",
-    "算法SSS/6/assets/Pasted image 20241023104726.png",
-    "算法SSS/6/assets/Pasted image 20241023104712.png"
+    "算法复习/算法确/2/2.2.2 动态规划.md",
+    "算法复习/算法确/2/2.2.1 递归.md",
+    "算法复习/算法确/2/2.2.3 分治法.md",
+    "Clippings/web/11-10/Recursive Functions - GeeksforGeeks.md",
+    "Clippings/web/11-10/Top MCQs on Recursion Algorithm with Answers 2.md",
+    "Clippings/web/11-10/Top MCQs on Recursion Algorithm with Answers 1.md",
+    "Clippings/web/11-10/Top MCQs on Recursion Algorithm with Answers.md",
+    "Clippings/web/11-10/assets",
+    "Clippings/web/未命名.canvas",
+    "Clippings/web/11-10",
+    "算法复习/算法确/2/assets",
+    "Clippings/web/11_9",
+    "Clippings/web",
+    "Clippings/TALKchatgpt/11_9"
   ]
 }
