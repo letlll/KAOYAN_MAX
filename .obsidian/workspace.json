@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/ChatGPT.md",
+                "file": "Clippings/web/11-11/HFUT - 算法导论复习 - 分支界限法(Branch and Bound Method)_fifo branch and bound algorithm-CSDN博客.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ChatGPT"
+              "title": "HFUT - 算法导论复习 - 分支界限法(Branch and Bound Method)_fifo branch and bound algorithm-CSDN博客"
             }
           },
           {
@@ -36,34 +36,21 @@
             }
           },
           {
-            "id": "d3f717c797d40d87",
+            "id": "b60ac6ea4649327a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/HelloAlgo/13.1   回溯算法 - Hello 算法.md",
+                "file": "Clippings/web/11-11/HFUT - 算法导论复习 - 分支界限法(Branch and Bound Method)_fifo branch and bound algorithm-CSDN博客.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "13.1   回溯算法 - Hello 算法"
-            }
-          },
-          {
-            "id": "e94941f3768c67d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/HelloAlgo/13.4   N 皇后问题 - Hello 算法.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "13.4   N 皇后问题 - Hello 算法"
+              "title": "HFUT - 算法导论复习 - 分支界限法(Branch and Bound Method)_fifo branch and bound algorithm-CSDN博客"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -217,15 +204,30 @@
       "simple-note-review:Simple Note Review: Continue Review of Current Note Set": false
     }
   },
-  "active": "c10fa2a7f585c193",
+  "active": "b60ac6ea4649327a",
   "lastOpenFiles": [
     "算法复习/算法确/2/2.2.6 分支限界法.md",
-    "Clippings/ChatGPT.md",
+    "算法复习/算法确/8. 贪心算法的证明.md",
+    "Clippings/TALKchatgpt/11-11/ChatGPT 1.md",
+    "Clippings/web/11-11/HFUT - 算法导论复习 - 分支界限法(Branch and Bound Method)_fifo branch and bound algorithm-CSDN博客.md",
+    "算法复习/算法确/2/2.0 基本思想.md",
     "算法复习/算法确/2/2.2.5 回溯.md",
+    "信息/算法youtube/LC-BB 0-1背包 分析.md",
+    "信息/算法youtube/LC-BB 0-1背包 原文.md",
+    "信息/算法youtube/LC-BB 0-1背包 导读.md",
+    "信息/算法youtube/Nqueen原文.md",
+    "信息/算法youtube/Nqueen导读.md",
+    "信息/算法youtube",
+    "信息",
+    "算法复习/算法确/2/2.2.4 贪心算法.md",
     "Clippings/HelloAlgo/13.4   N 皇后问题 - Hello 算法.md",
     "Clippings/HelloAlgo/13.1   回溯算法 - Hello 算法.md",
-    "算法复习/算法确/2/2.0 基本思想.md",
-    "Clippings/TALKchatgpt/ChatGPT.md",
+    "Clippings/路径.md",
+    "Clippings/web/11-11",
+    "Clippings/TALKchatgpt/11-10/ChatGPT.md",
+    "Clippings/哔哩哔哩 (゜-゜)つロ 干杯~-bilibili.md",
+    "Clippings/TALKchatgpt/11-11",
+    "Clippings/TALKchatgpt/11-11/ChatGPT.md",
     "Clippings/assets/Pasted image 20241110225033.png",
     "assets/Pasted image 20241110224935.png",
     "assets/Pasted image 20241110224742.png",
@@ -239,32 +241,17 @@
     "算法SSS/江苏大学/题型分析.md",
     "Clippings/HelloAlgo",
     "assets",
-    "Clippings/哔哩哔哩 (゜-゜)つロ 干杯~-bilibili.md",
     "算法复习/HELLOALGO.md",
     "Clippings/web/11-10/算法-递归算法_什么是递归算法递归算法的特点-CSDN博客.md",
     "潦草学者.md",
     "Clippings/web/11-10/教你快速导出 ChatGPT 对话数据！_怎样导出chatgpt的内容-CSDN博客.md",
-    "算法复习/算法确/2/2.2.4 贪心算法.md",
     "Clippings/TALKchatgpt/11-10",
     "Clippings/web/11-10/N Queen Problem - GeeksforGeeks.md",
     "效率/视频高效.md",
     "效率/笔记模板/我用 5 分钟，读完了 80 分钟的视频 - 少数派 1.md",
-    "Clippings/web/11-10/我用 5 分钟，读完了 80 分钟的视频 - 少数派.md",
     "Clippings/assets",
-    "算法SSS/REVIEW/搜索.md",
-    "算法SSS/江苏大学/修复：题型分析.md",
-    "算法复习/算法确/2/2.2.2 动态规划.md",
-    "算法复习/算法确/2/2.2.1 递归.md",
-    "算法复习/算法确/2/2.2.3 分治法.md",
-    "Clippings/web/11-10/Recursive Functions - GeeksforGeeks.md",
-    "Clippings/web/11-10/Top MCQs on Recursion Algorithm with Answers 2.md",
-    "Clippings/web/11-10/Top MCQs on Recursion Algorithm with Answers 1.md",
     "Clippings/web/11-10/assets",
     "Clippings/web/未命名.canvas",
-    "Clippings/web/11-10",
-    "算法复习/算法确/2/assets",
-    "Clippings/web/11_9",
-    "Clippings/web",
-    "Clippings/TALKchatgpt/11_9"
+    "Clippings/web/11-10"
   ]
 }

@@ -61,3 +61,8 @@ git remote set-url origin https://github.com/letlll/KAOYAN_MAX.git
 如果你剪切文件的操作导致本地变更与远程仓库有冲突，Git 会提示你合并这些更改。你可以根据提示解决冲突后，继续 `git pull` 或进行提交。
 
 这些步骤应该能够帮助你在新位置恢复并继续使用 Git 与 GitHub 进行同步。如果有其他问题，随时告诉我！
+
+
+```
+git push --set-upstream origin main
+```
