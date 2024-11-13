@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "6f619436db55074c",
+        "id": "78c24444a3188a3f",
         "type": "tabs",
         "children": [
           {
-            "id": "c10fa2a7f585c193",
+            "id": "8470b276840ff3a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clippings/web/11-11/HFUT - 算法导论复习 - 分支界限法(Branch and Bound Method)_fifo branch and bound algorithm-CSDN博客.md",
+                "file": "算法复习/算法确/6.1 矩阵连乘.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HFUT - 算法导论复习 - 分支界限法(Branch and Bound Method)_fifo branch and bound algorithm-CSDN博客"
-            }
-          },
-          {
-            "id": "0da6a044a7f11079",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "算法复习/算法确/2/2.0 基本思想.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2.0 基本思想"
-            }
-          },
-          {
-            "id": "b60ac6ea4649327a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clippings/web/11-11/HFUT - 算法导论复习 - 分支界限法(Branch and Bound Method)_fifo branch and bound algorithm-CSDN博客.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "HFUT - 算法导论复习 - 分支界限法(Branch and Bound Method)_fifo branch and bound algorithm-CSDN博客"
+              "title": "6.1 矩阵连乘"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -81,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"算法复习/算法确/2/\" 分支限界法",
+                "query": "tag:#paper",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5
+    "width": 228.5
   },
   "right": {
     "id": "63a2ce5635c7ad81",
@@ -204,54 +175,56 @@
       "simple-note-review:Simple Note Review: Continue Review of Current Note Set": false
     }
   },
-  "active": "b60ac6ea4649327a",
+  "active": "8470b276840ff3a1",
   "lastOpenFiles": [
-    "算法复习/算法确/2/2.2.6 分支限界法.md",
-    "算法复习/算法确/8. 贪心算法的证明.md",
-    "Clippings/TALKchatgpt/11-11/ChatGPT 1.md",
-    "Clippings/web/11-11/HFUT - 算法导论复习 - 分支界限法(Branch and Bound Method)_fifo branch and bound algorithm-CSDN博客.md",
-    "算法复习/算法确/2/2.0 基本思想.md",
-    "算法复习/算法确/2/2.2.5 回溯.md",
-    "信息/算法youtube/LC-BB 0-1背包 分析.md",
-    "信息/算法youtube/LC-BB 0-1背包 原文.md",
-    "信息/算法youtube/LC-BB 0-1背包 导读.md",
-    "信息/算法youtube/Nqueen原文.md",
-    "信息/算法youtube/Nqueen导读.md",
-    "信息/算法youtube",
-    "信息",
+    "Clippings/动态规划之矩阵连乘_c语言动态规划 递归 解决矩阵连乘问题-CSDN博客.md",
+    "Clippings/动态规划之——矩阵连乘（全网最详细博文，看这一篇就够了！）-CSDN博客.md",
+    "算法复习/算法确/6.1 矩阵连乘.md",
+    "算法复习/算法确/assets/Pasted image 20241113151052.png",
+    "算法复习/算法确/assets/Pasted image 20241113151010.png",
+    "算法复习/算法确/assets",
+    "算法复习/算法确/6. 矩阵连乘.md",
+    "Clippings/TALKchatgpt/11-12/11121138talk.md",
+    "算法复习/算法复习目录.md",
+    "算法复习/0. 视频板.md",
+    "算法复习/算法确/7. 装载问题.md",
     "算法复习/算法确/2/2.2.4 贪心算法.md",
-    "Clippings/HelloAlgo/13.4   N 皇后问题 - Hello 算法.md",
-    "Clippings/HelloAlgo/13.1   回溯算法 - Hello 算法.md",
-    "Clippings/路径.md",
-    "Clippings/web/11-11",
-    "Clippings/TALKchatgpt/11-10/ChatGPT.md",
-    "Clippings/哔哩哔哩 (゜-゜)つロ 干杯~-bilibili.md",
-    "Clippings/TALKchatgpt/11-11",
-    "Clippings/TALKchatgpt/11-11/ChatGPT.md",
-    "Clippings/assets/Pasted image 20241110225033.png",
-    "assets/Pasted image 20241110224935.png",
-    "assets/Pasted image 20241110224742.png",
-    "assets/Pasted image 20241110224528.png",
-    "assets/Pasted image 20241110224522.png",
-    "assets/Pasted image 20241110224517.png",
-    "assets/Pasted image 20241110224503.png",
-    "assets/Pasted image 20241110224459.png",
-    "assets/Pasted image 20241110224456.png",
-    "assets/Pasted image 20241110224451.png",
-    "算法SSS/江苏大学/题型分析.md",
-    "Clippings/HelloAlgo",
-    "assets",
-    "算法复习/HELLOALGO.md",
-    "Clippings/web/11-10/算法-递归算法_什么是递归算法递归算法的特点-CSDN博客.md",
-    "潦草学者.md",
-    "Clippings/web/11-10/教你快速导出 ChatGPT 对话数据！_怎样导出chatgpt的内容-CSDN博客.md",
-    "Clippings/TALKchatgpt/11-10",
-    "Clippings/web/11-10/N Queen Problem - GeeksforGeeks.md",
-    "效率/视频高效.md",
-    "效率/笔记模板/我用 5 分钟，读完了 80 分钟的视频 - 少数派 1.md",
-    "Clippings/assets",
-    "Clippings/web/11-10/assets",
-    "Clippings/web/未命名.canvas",
-    "Clippings/web/11-10"
+    "算法复习/算法确/2/2.2.3 分治法.md",
+    "算法复习/算法确/2/2.2.1 递归.md",
+    "算法复习/算法确/2/2.0 基本思想.md",
+    "算法复习/算法确/5. 流水作业调度.md",
+    "算法复习/算法确/4. 毕波那契.md",
+    "算法复习/算法确/3. 渐进阶的排序.md",
+    "算法复习/算法确/1. 01 背包问题.md",
+    "Clippings/ChatGPT 1.md",
+    "算法SSS/PPTTurnINFO/信息库/Three 2.1.md",
+    "算法复习/算法确/1/分支限界法.md",
+    "算法复习/算法确/1/动态规划.md",
+    "算法复习/算法确/1/递归算法.md",
+    "算法复习/算法确/9/9.1 大纲.md",
+    "算法复习/算法确/9/9.2.0 复杂度简述.md",
+    "算法复习/算法确/9/9.3 练习.md",
+    "算法复习/算法确/9/9.2.5 OΩθ2.md",
+    "算法复习/算法确/9/9.2.4 OΩθ.md",
+    "Clippings/TALKchatgpt/11-12",
+    "插件",
+    "画板览观/算法/2. 基本思想.canvas",
+    "画板览观/算法/0. 源.canvas",
+    "提示工程/笔记/笔记阅读",
+    "提示工程/笔记/伪代码提示",
+    "提示工程/笔记",
+    "assets/Pasted image 20241111195721.png",
+    "assets/Pasted image 20241111195609.png",
+    "assets/Pasted image 20241111195601.png",
+    "assets/Pasted image 20241111195548.png",
+    "assets/Pasted image 20241111195538.png",
+    "assets/Pasted image 20241111195530.png",
+    "assets/Pasted image 20241111194728.png",
+    "assets/Pasted image 20241111194302.png",
+    "提示工程/11-11/[baoyu.ai]how-to-write-good-prompt.pdf",
+    "提示工程/assets",
+    "提示工程/11-11",
+    "提示工程",
+    "Clippings/web/未命名.canvas"
   ]
 }

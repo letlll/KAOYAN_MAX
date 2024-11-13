@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"cf1307a2fced977b","type":"file","file":"算法复习/算法确/2/2.0 基本思想.md","x":-200,"y":-600,"width":600,"height":1240},
+		{"id":"fc778cff4e64bb8b","type":"file","file":"算法复习/算法确/2/2.1 问答题.md","x":-1040,"y":-600,"width":600,"height":1240},
+		{"id":"e34e0f372080a0b6","type":"file","file":"算法复习/算法确/2/2.2.1 递归.md","x":560,"y":-600,"width":400,"height":536},
+		{"id":"9645fc87f708e7b5","type":"file","file":"算法复习/算法确/2/2.2.2 动态规划.md","x":1080,"y":-600,"width":400,"height":536},
+		{"id":"f64ffa181e1585c3","type":"file","file":"算法复习/算法确/2/2.2.3 分治法.md","x":1680,"y":-600,"width":400,"height":536},
+		{"id":"ef655c8bf4dc5c60","type":"file","file":"算法复习/算法确/2/2.2.6 分支限界法.md","x":1680,"y":104,"width":400,"height":536},
+		{"id":"a50c47a20104edf5","type":"file","file":"算法复习/算法确/2/2.2.4 贪心算法.md","x":1080,"y":104,"width":400,"height":536},
+		{"id":"310a84170e4c901d","type":"file","file":"算法复习/算法确/2/2.2.5 回溯.md","x":560,"y":104,"width":400,"height":536}
+	],
+	"edges":[
+		{"id":"00f5ba677de0aa33","fromNode":"fc778cff4e64bb8b","fromSide":"right","toNode":"cf1307a2fced977b","toSide":"left"}
+	]
+}
