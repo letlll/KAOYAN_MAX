@@ -1,0 +1,2319 @@
+WEBVTT
+Kind: subtitles
+ID: a.en
+Source: https&#58;//www.youtube.com/watch?v&#61;nLmhmB6NzcM
+Title: 4.5 0/1 Knapsack - Two Methods - Dynamic Programming
+Language: en
+Label: 英语 (自动生成)
+
+0
+00:00:00.240 --> 00:00:05.879
+the problem is 01 Absa
+
+1
+00:00:02.840 --> 00:00:09.559
+problem in this video I will explain
+
+2
+00:00:05.879 --> 00:00:12.399
+what is 01 napsack problem and how it
+
+3
+00:00:09.559 --> 00:00:15.320
+can be solved using dynamic programming
+
+4
+00:00:12.400 --> 00:00:17.480
+we will understand its approach next I
+
+5
+00:00:15.320 --> 00:00:20.279
+will show you a tabular method for
+
+6
+00:00:17.480 --> 00:00:23.519
+solving this one then also I will show
+
+7
+00:00:20.279 --> 00:00:25.119
+you a sets method for solving this one
+
+8
+00:00:23.519 --> 00:00:27.919
+so there are two methods we will see
+
+9
+00:00:25.119 --> 00:00:30.439
+both the methods first of all let us
+
+10
+00:00:27.920 --> 00:00:33.879
+understand what the problem is
+
+11
+00:00:30.439 --> 00:00:35.559
+here I have some four objects for each
+
+12
+00:00:33.879 --> 00:00:36.440
+object there is some profit and there is
+
+13
+00:00:35.559 --> 00:00:39.879
+some
+
+14
+00:00:36.440 --> 00:00:42.920
+weight and there is a bag of capacity M
+
+15
+00:00:39.879 --> 00:00:42.919
+that is 8 is
+
+16
+00:00:43.559 --> 00:00:51.280
+given the objective is to fill this back
+
+17
+00:00:47.120 --> 00:00:54.199
+with these objects so can I put them all
+
+18
+00:00:51.280 --> 00:00:57.160
+see the capacity a is eight but the
+
+19
+00:00:54.199 --> 00:00:59.079
+total weights of all these object is 14
+
+20
+00:00:57.160 --> 00:01:01.640
+so all objects cannot be filled in the
+
+21
+00:00:59.079 --> 00:01:03.519
+bag so I have to carry few of those some
+
+22
+00:01:01.640 --> 00:01:05.760
+of those objects that is subset of those
+
+23
+00:01:03.519 --> 00:01:08.479
+objects and I have to carry them and
+
+24
+00:01:05.760 --> 00:01:09.920
+sell them at other place so once I sell
+
+25
+00:01:08.479 --> 00:01:12.799
+I get this
+
+26
+00:01:09.920 --> 00:01:16.040
+profit so I have to fill the object such
+
+27
+00:01:12.799 --> 00:01:18.040
+that the total profit is
+
+28
+00:01:16.040 --> 00:01:21.759
+maximized and I have to give the
+
+29
+00:01:18.040 --> 00:01:24.320
+solution in the form of a set for each
+
+30
+00:01:21.759 --> 00:01:27.000
+object like for example this is included
+
+31
+00:01:24.320 --> 00:01:28.960
+and this is not included or not included
+
+32
+00:01:27.000 --> 00:01:31.360
+like this I have to write down which one
+
+33
+00:01:28.960 --> 00:01:35.158
+is included and not included so it means
+
+34
+00:01:31.360 --> 00:01:38.159
+I can write down each XI either 0 or 1
+
+35
+00:01:35.159 --> 00:01:40.680
+means the values can be 0 or 1 but not
+
+36
+00:01:38.159 --> 00:01:43.640
+fraction so it means that the object
+
+37
+00:01:40.680 --> 00:01:47.240
+that I'm going to carry are not
+
+38
+00:01:43.640 --> 00:01:50.000
+divisible breakable so I cannot take the
+
+39
+00:01:47.240 --> 00:01:52.798
+fraction of that object so this means
+
+40
+00:01:50.000 --> 00:01:56.719
+these are some solid objects maybe a
+
+41
+00:01:52.799 --> 00:01:59.119
+mixer or microwave1 or a router it can
+
+42
+00:01:56.719 --> 00:02:02.479
+be something like this so which I cannot
+
+43
+00:01:59.119 --> 00:02:04.640
+take a half of mixer in the bag so these
+
+44
+00:02:02.479 --> 00:02:07.280
+are indivisible objects so either I
+
+45
+00:02:04.640 --> 00:02:09.840
+should carry the whole object or don't
+
+46
+00:02:07.280 --> 00:02:13.160
+carry it at all so I have to carry the
+
+47
+00:02:09.840 --> 00:02:15.800
+object such that the sum of their
+
+48
+00:02:13.160 --> 00:02:18.920
+profits should be
+
+49
+00:02:15.800 --> 00:02:22.640
+maximized and some of
+
+50
+00:02:18.920 --> 00:02:24.679
+their weights should be less than or
+
+51
+00:02:22.640 --> 00:02:27.000
+equal to the capacity of the
+
+52
+00:02:24.680 --> 00:02:29.920
+back now let us know the approach of
+
+53
+00:02:27.000 --> 00:02:31.480
+dynamic programming for solving this one
+
+54
+00:02:29.920 --> 00:02:32.920
+now few important things about dynamic
+
+55
+00:02:31.480 --> 00:02:35.560
+programming dynamic programming is
+
+56
+00:02:32.920 --> 00:02:37.958
+useful for solving optimization problem
+
+57
+00:02:35.560 --> 00:02:41.000
+yes this demands maximum results so it's
+
+58
+00:02:37.959 --> 00:02:43.159
+optimization problem second thing
+
+59
+00:02:41.000 --> 00:02:45.400
+dynamic programming says that a problem
+
+60
+00:02:43.159 --> 00:02:47.440
+should be solved in sequence of
+
+61
+00:02:45.400 --> 00:02:49.200
+decisions so yes we can take the
+
+62
+00:02:47.440 --> 00:02:50.920
+sequence of decisions for every object
+
+63
+00:02:49.200 --> 00:02:53.480
+we can take shall I include or not
+
+64
+00:02:50.920 --> 00:02:55.559
+include or not include or not so I can
+
+65
+00:02:53.480 --> 00:02:57.440
+take decisions I can even start taking
+
+66
+00:02:55.560 --> 00:02:59.879
+the decision from the last object also
+
+67
+00:02:57.440 --> 00:03:01.680
+include or not include or so usually in
+
+68
+00:02:59.879 --> 00:03:04.319
+this one we take the decision from last
+
+69
+00:03:01.680 --> 00:03:06.560
+object towards first object so we can
+
+70
+00:03:04.319 --> 00:03:08.518
+take sequence of decision next thing one
+
+71
+00:03:06.560 --> 00:03:10.920
+more point that dynamic programming says
+
+72
+00:03:08.519 --> 00:03:14.040
+that you should try all possible
+
+73
+00:03:10.920 --> 00:03:16.040
+solutions and pick up the best one now
+
+74
+00:03:14.040 --> 00:03:18.120
+how many possible solutions are there
+
+75
+00:03:16.040 --> 00:03:21.440
+see when I'm writing the solution in the
+
+76
+00:03:18.120 --> 00:03:24.760
+form of zeros and ones then it can be 0
+
+77
+00:03:21.440 --> 00:03:27.159
+0 0 means no object is included or 1 one
+
+78
+00:03:24.760 --> 00:03:30.079
+one one means all objects are included
+
+79
+00:03:27.159 --> 00:03:32.480
+or 0 0 0 1 means only fourth object is
+
+80
+00:03:30.080 --> 00:03:34.879
+included or first object is
+
+81
+00:03:32.480 --> 00:03:36.280
+included or first two objects are
+
+82
+00:03:34.879 --> 00:03:38.760
+included like this there are many
+
+83
+00:03:36.280 --> 00:03:40.879
+possible solutions and some of them may
+
+84
+00:03:38.760 --> 00:03:42.959
+be feasible some may not be feasible
+
+85
+00:03:40.879 --> 00:03:44.720
+like all objects I cannot include so
+
+86
+00:03:42.959 --> 00:03:46.920
+anyway I should try all of them and pick
+
+87
+00:03:44.720 --> 00:03:49.480
+up the best one so total how many
+
+88
+00:03:46.920 --> 00:03:51.720
+solutions will be there so like four
+
+89
+00:03:49.480 --> 00:03:54.319
+zeros and ones form if I continue so
+
+90
+00:03:51.720 --> 00:03:56.599
+I'll be getting 2^ 4
+
+91
+00:03:54.319 --> 00:03:58.798
+Solutions so I should try 2 power 4
+
+92
+00:03:56.599 --> 00:04:00.359
+solution for n objects it will be 2
+
+93
+00:03:58.799 --> 00:04:02.480
+power n solution
+
+94
+00:04:00.360 --> 00:04:04.480
+so if I try out all then the time
+
+95
+00:04:02.480 --> 00:04:08.000
+complexity will be 2^
+
+96
+00:04:04.480 --> 00:04:10.159
+n this is too much time consuming so
+
+97
+00:04:08.000 --> 00:04:12.879
+dynamic programming shows a easy method
+
+98
+00:04:10.159 --> 00:04:16.079
+for doing the same thing we will not we
+
+99
+00:04:12.879 --> 00:04:18.199
+will be indirectly trying all 2 power n
+
+100
+00:04:16.079 --> 00:04:20.840
+right but not directly so we'll not
+
+101
+00:04:18.199 --> 00:04:23.000
+spend that much time let us solve this
+
+102
+00:04:20.839 --> 00:04:25.599
+problem using tabulation method
+
+103
+00:04:23.000 --> 00:04:28.560
+tabulation method let us see how to fill
+
+104
+00:04:25.600 --> 00:04:31.840
+this values and how to get the solution
+
+105
+00:04:28.560 --> 00:04:34.400
+for this problem so for solving as the
+
+106
+00:04:31.840 --> 00:04:37.960
+capacity of the bag is8 so I have taken
+
+107
+00:04:34.400 --> 00:04:41.520
+the column so starting from 0 to
+
+108
+00:04:37.960 --> 00:04:44.560
+8 so this means that though the capacity
+
+109
+00:04:41.520 --> 00:04:48.000
+is8 but we'll not consider that eight at
+
+110
+00:04:44.560 --> 00:04:49.759
+once so we'll add weight one by one so
+
+111
+00:04:48.000 --> 00:04:52.240
+starting from zero then let us assume
+
+112
+00:04:49.759 --> 00:04:55.160
+weight is one weight is two and so on
+
+113
+00:04:52.240 --> 00:04:58.080
+then rows four objects so I have taken
+
+114
+00:04:55.160 --> 00:05:00.759
+five 0 1 2 3 4 so starting from zero so
+
+115
+00:04:58.080 --> 00:05:02.758
+it means 1 by we will consider the
+
+116
+00:05:00.759 --> 00:05:04.560
+object so initially we will not consider
+
+117
+00:05:02.759 --> 00:05:07.840
+any object means we will not include any
+
+118
+00:05:04.560 --> 00:05:10.479
+object in the bag so for filling this we
+
+119
+00:05:07.840 --> 00:05:12.198
+have a formula so I'll show you formula
+
+120
+00:05:10.479 --> 00:05:16.000
+after some time after filling some
+
+121
+00:05:12.199 --> 00:05:18.000
+values so let us see first row as zero
+
+122
+00:05:16.000 --> 00:05:19.880
+object no object is included then what
+
+123
+00:05:18.000 --> 00:05:21.840
+will be the profit so in these boxes
+
+124
+00:05:19.880 --> 00:05:24.800
+I'll be writing the profit so there is
+
+125
+00:05:21.840 --> 00:05:27.080
+no profit gained when no object is
+
+126
+00:05:24.800 --> 00:05:29.160
+included and even when the capacity of
+
+127
+00:05:27.080 --> 00:05:31.560
+the bag is zero this are the this is the
+
+128
+00:05:29.160 --> 00:05:33.759
+capacity these are the weights right and
+
+129
+00:05:31.560 --> 00:05:36.280
+these are weights and the profits of the
+
+130
+00:05:33.759 --> 00:05:38.400
+objects so these are the weights and
+
+131
+00:05:36.280 --> 00:05:41.520
+there is zero weight is there then all
+
+132
+00:05:38.400 --> 00:05:43.080
+these are 0 0
+
+133
+00:05:41.520 --> 00:05:45.880
+0
+
+134
+00:05:43.080 --> 00:05:48.400
+next now we will start filling so for
+
+135
+00:05:45.880 --> 00:05:50.680
+that I'll consider first object when I
+
+136
+00:05:48.400 --> 00:05:52.960
+consider first object I'll take this row
+
+137
+00:05:50.680 --> 00:05:55.199
+and I will ignore all other
+
+138
+00:05:52.960 --> 00:05:57.758
+objects and similarly when I go to
+
+139
+00:05:55.199 --> 00:06:00.520
+second row I'll ignore the remaining and
+
+140
+00:05:57.759 --> 00:06:02.319
+I will take the second object as well as
+
+141
+00:06:00.520 --> 00:06:05.719
+the first object I'll consider the first
+
+142
+00:06:02.319 --> 00:06:08.400
+object also so it means whenever I am in
+
+143
+00:06:05.720 --> 00:06:11.599
+I throw I will consider all the objects
+
+144
+00:06:08.400 --> 00:06:13.758
+in the previous rows also so for the
+
+145
+00:06:11.599 --> 00:06:16.880
+first row directly I can fill it let us
+
+146
+00:06:13.759 --> 00:06:19.960
+see first row what is the weight of the
+
+147
+00:06:16.880 --> 00:06:22.599
+first object two so it can be filled
+
+148
+00:06:19.960 --> 00:06:25.318
+only when the bag capacity is two so
+
+149
+00:06:22.599 --> 00:06:28.599
+here so what will be the profit one so
+
+150
+00:06:25.319 --> 00:06:31.120
+fill one here then this means this is
+
+151
+00:06:28.599 --> 00:06:35.080
+same value previous value usually we
+
+152
+00:06:31.120 --> 00:06:38.400
+write previous value only if required
+
+153
+00:06:35.080 --> 00:06:40.120
+then rest of the cells the capacity of
+
+154
+00:06:38.400 --> 00:06:42.440
+the bag is increasing but how many
+
+155
+00:06:40.120 --> 00:06:44.440
+objects I'm considering only one so I
+
+156
+00:06:42.440 --> 00:06:46.919
+don't have anything more to fill in the
+
+157
+00:06:44.440 --> 00:06:51.039
+bag so only that object I can fill and
+
+158
+00:06:46.919 --> 00:06:51.039
+it will be getting profit as one one one
+
+159
+00:06:51.880 --> 00:06:57.400
+only I'll fill the second row also right
+
+160
+00:06:55.039 --> 00:06:59.639
+third row also in the same way then I
+
+161
+00:06:57.400 --> 00:07:02.520
+will write down the formula let us go to
+
+162
+00:06:59.639 --> 00:07:04.280
+second row I'm going to consider second
+
+163
+00:07:02.520 --> 00:07:06.560
+object so as I said when I consider
+
+164
+00:07:04.280 --> 00:07:09.400
+second object I should also include the
+
+165
+00:07:06.560 --> 00:07:11.280
+first object so first let us look at the
+
+166
+00:07:09.400 --> 00:07:13.440
+second object see the weight of the
+
+167
+00:07:11.280 --> 00:07:16.119
+second object is three it can be filled
+
+168
+00:07:13.440 --> 00:07:18.719
+in the bag only if the capacity is three
+
+169
+00:07:16.120 --> 00:07:21.319
+so in this cell only it can be filled so
+
+170
+00:07:18.720 --> 00:07:23.960
+what is the profit that I'll get two so
+
+171
+00:07:21.319 --> 00:07:26.479
+put two here what about this side it
+
+172
+00:07:23.960 --> 00:07:29.520
+will be same value same value as the
+
+173
+00:07:26.479 --> 00:07:32.318
+previous rle then beyond this what
+
+174
+00:07:29.520 --> 00:07:34.240
+should come here so as I said that when
+
+175
+00:07:32.319 --> 00:07:37.520
+you are taking second object you should
+
+176
+00:07:34.240 --> 00:07:39.639
+also consider first object so if I fill
+
+177
+00:07:37.520 --> 00:07:43.039
+the second object also in the back total
+
+178
+00:07:39.639 --> 00:07:46.000
+weight required is how much five so this
+
+179
+00:07:43.039 --> 00:07:48.240
+is five and total profit will be three
+
+180
+00:07:46.000 --> 00:07:50.440
+so both the objects can be filled when
+
+181
+00:07:48.240 --> 00:07:53.159
+the capacity is five and the total
+
+182
+00:07:50.440 --> 00:07:55.039
+profit will be three so here both of
+
+183
+00:07:53.159 --> 00:07:57.280
+them can be
+
+184
+00:07:55.039 --> 00:07:59.560
+filled right both of them I'm
+
+185
+00:07:57.280 --> 00:08:01.440
+considering both of them so now I have
+
+186
+00:07:59.560 --> 00:08:03.680
+have only two objects and this is giving
+
+187
+00:08:01.440 --> 00:08:06.080
+for both the objects are filled so rest
+
+188
+00:08:03.680 --> 00:08:08.960
+of the values will be 3 3 3 then what
+
+189
+00:08:06.080 --> 00:08:11.240
+will be the value here so as this is two
+
+190
+00:08:08.960 --> 00:08:12.758
+so this will also be two so I can take
+
+191
+00:08:11.240 --> 00:08:15.159
+the previous value or this value
+
+192
+00:08:12.759 --> 00:08:18.240
+whichever is maximum I can take the same
+
+193
+00:08:15.159 --> 00:08:20.199
+thing now I will fill the third object
+
+194
+00:08:18.240 --> 00:08:23.840
+also then for the fourth object I will
+
+195
+00:08:20.199 --> 00:08:25.800
+show you the formula third object when I
+
+196
+00:08:23.840 --> 00:08:27.799
+consider third object if you look at
+
+197
+00:08:25.800 --> 00:08:29.159
+these the maximum weight is this one and
+
+198
+00:08:27.800 --> 00:08:31.479
+as they are arranged in the increasing
+
+199
+00:08:29.159 --> 00:08:34.279
+order of the weight so this is weight is
+
+200
+00:08:31.479 --> 00:08:36.880
+four so this object can be filled in the
+
+201
+00:08:34.279 --> 00:08:40.039
+bag only if the capacity of the bag is
+
+202
+00:08:36.880 --> 00:08:41.919
+four so this will be included in the bag
+
+203
+00:08:40.039 --> 00:08:44.480
+when the capacity is four so the total
+
+204
+00:08:41.919 --> 00:08:47.959
+profit that you'll be getting is five so
+
+205
+00:08:44.480 --> 00:08:51.640
+this is five then before that whatever
+
+206
+00:08:47.959 --> 00:08:55.640
+the previous row values are so 2 1 and
+
+207
+00:08:51.640 --> 00:08:58.079
+zero now Beyond this let us see see when
+
+208
+00:08:55.640 --> 00:09:00.240
+I on the third object I should also
+
+209
+00:08:58.079 --> 00:09:01.199
+consider first first and the second
+
+210
+00:09:00.240 --> 00:09:04.959
+object
+
+211
+00:09:01.200 --> 00:09:08.000
+also so if I just check them this is
+
+212
+00:09:04.959 --> 00:09:10.640
+four and if I take these two objects it
+
+213
+00:09:08.000 --> 00:09:12.640
+will be total six weight weight is six
+
+214
+00:09:10.640 --> 00:09:16.240
+so these two objects I can fill if the
+
+215
+00:09:12.640 --> 00:09:18.720
+weight is six right a if I want to fill
+
+216
+00:09:16.240 --> 00:09:20.560
+these two then these two I can fill when
+
+217
+00:09:18.720 --> 00:09:23.160
+the weight is
+
+218
+00:09:20.560 --> 00:09:25.640
+seven this two I can fill if the weight
+
+219
+00:09:23.160 --> 00:09:29.560
+is five and what will do the profit
+
+220
+00:09:25.640 --> 00:09:32.920
+three this object itself is five right
+
+221
+00:09:29.560 --> 00:09:35.560
+now I will consider these two six and
+
+222
+00:09:32.920 --> 00:09:38.640
+the total weight will be six so at six
+
+223
+00:09:35.560 --> 00:09:42.119
+it will be six only right and when I
+
+224
+00:09:38.640 --> 00:09:45.720
+consider these two so total is seven
+
+225
+00:09:42.120 --> 00:09:48.360
+seven and the profit is also seven so at
+
+226
+00:09:45.720 --> 00:09:51.320
+seven the profit is seven can I include
+
+227
+00:09:48.360 --> 00:09:53.959
+all three it will be 10 but the capacity
+
+228
+00:09:51.320 --> 00:09:56.680
+of the bag is only eight so I cannot
+
+229
+00:09:53.959 --> 00:09:58.959
+include all three then beyond this the
+
+230
+00:09:56.680 --> 00:10:03.800
+value will be seven only and before this
+
+231
+00:09:58.959 --> 00:10:03.800
+one the value will be same as this five
+
+232
+00:10:05.040 --> 00:10:10.839
+five all right now I will show you the
+
+233
+00:10:08.440 --> 00:10:14.279
+formula and I will fill fourth row with
+
+234
+00:10:10.839 --> 00:10:17.519
+that formula the formula is like this if
+
+235
+00:10:14.279 --> 00:10:21.880
+I call this table as V this table as V
+
+236
+00:10:17.519 --> 00:10:26.040
+then V of I comma w i is the row number
+
+237
+00:10:21.880 --> 00:10:30.160
+W is the column number is maximum
+
+238
+00:10:26.040 --> 00:10:32.839
+of V of i- 1 that is from the previous
+
+239
+00:10:30.160 --> 00:10:34.719
+row I should take same value means
+
+240
+00:10:32.839 --> 00:10:38.440
+previous row value I should take this is
+
+241
+00:10:34.720 --> 00:10:43.720
+the meaning or maximum of this one or
+
+242
+00:10:38.440 --> 00:10:46.839
+what V of IUS 1 comma weight minus
+
+243
+00:10:43.720 --> 00:10:52.639
+weight of an object
+
+244
+00:10:46.839 --> 00:10:54.800
+wi plus profit of an object that you are
+
+245
+00:10:52.639 --> 00:10:57.040
+considering now let us the follow the
+
+246
+00:10:54.800 --> 00:11:02.800
+formula and fill all
+
+247
+00:10:57.040 --> 00:11:07.920
+these first one 4A 1 I will fill 4A 1 so
+
+248
+00:11:02.800 --> 00:11:12.880
+V of 4A 1 is maximum
+
+249
+00:11:07.920 --> 00:11:17.920
+of V of 3A 1 like this is four so this
+
+250
+00:11:12.880 --> 00:11:21.000
+will be three comma V of 3 comma weight
+
+251
+00:11:17.920 --> 00:11:25.959
+is how much 1 minus weight of an object
+
+252
+00:11:21.000 --> 00:11:31.240
+weight of an object is 5 1 - 5 plus
+
+253
+00:11:25.959 --> 00:11:31.239
+profit of that object is six six
+
+254
+00:11:31.440 --> 00:11:37.959
+now this becomes 3A
+
+255
+00:11:34.680 --> 00:11:41.000
+-4 there is no such location so that
+
+256
+00:11:37.959 --> 00:11:43.359
+value becomes undefined so only this
+
+257
+00:11:41.000 --> 00:11:45.760
+value will be defined V of 3 comma 1
+
+258
+00:11:43.360 --> 00:11:48.079
+will be defined so V of 3 comma 1 is
+
+259
+00:11:45.760 --> 00:11:50.959
+what zero so I should take zero
+
+260
+00:11:48.079 --> 00:11:54.279
+only there will not be any such index V
+
+261
+00:11:50.959 --> 00:11:57.439
+of 3 comma -4 yes for that I have to
+
+262
+00:11:54.279 --> 00:11:59.600
+take zero only so it means up to what
+
+263
+00:11:57.440 --> 00:12:02.480
+I'll be getting negative numbers up to
+
+264
+00:11:59.600 --> 00:12:06.320
+fifth weight up to fifth weight so till
+
+265
+00:12:02.480 --> 00:12:09.279
+here I should fill these values as it is
+
+266
+00:12:06.320 --> 00:12:11.639
+only so that's what I was saying that
+
+267
+00:12:09.279 --> 00:12:13.880
+this can be considered or this can be
+
+268
+00:12:11.639 --> 00:12:16.600
+considered in fourth so write on its
+
+269
+00:12:13.880 --> 00:12:18.560
+value and all previous values as it is
+
+270
+00:12:16.600 --> 00:12:21.040
+so the same thing here because there you
+
+271
+00:12:18.560 --> 00:12:23.518
+will be getting negative so till fifth
+
+272
+00:12:21.040 --> 00:12:25.880
+weight till fifth weight before that
+
+273
+00:12:23.519 --> 00:12:28.040
+till before that I have filled as it is
+
+274
+00:12:25.880 --> 00:12:35.399
+now this fifth way how to fill I will
+
+275
+00:12:28.040 --> 00:12:37.279
+show you for this value 4A 5 V of 4A 5
+
+276
+00:12:35.399 --> 00:12:45.360
+is maximum
+
+277
+00:12:37.279 --> 00:12:49.240
+of V of 3 comma 5 comma V of 3 comma
+
+278
+00:12:45.360 --> 00:12:51.160
+weight is how much five minus weight of
+
+279
+00:12:49.240 --> 00:12:54.480
+this object is how much
+
+280
+00:12:51.160 --> 00:13:00.360
+five plus profit of this object is how
+
+281
+00:12:54.480 --> 00:13:06.600
+much 6 6 let us see V of 3 comma 5 3A 5
+
+282
+00:13:00.360 --> 00:13:12.399
+is how much 5 comma V of 3A 5 - 1 5 - 5
+
+283
+00:13:06.600 --> 00:13:15.120
+0 V of 3 comma 0 3 comma 0 is 0 plus 6
+
+284
+00:13:12.399 --> 00:13:18.000
+so which is greater 6 is greater so fill
+
+285
+00:13:15.120 --> 00:13:20.040
+this value with six so that means this
+
+286
+00:13:18.000 --> 00:13:26.560
+object is included
+
+287
+00:13:20.040 --> 00:13:33.199
+here now 4A 6 I will find out V of 4A 6
+
+288
+00:13:26.560 --> 00:13:36.319
+is maximum of V of 3A 6 comma V of 3
+
+289
+00:13:33.199 --> 00:13:38.920
+comma weight is 6 right and the weight
+
+290
+00:13:36.320 --> 00:13:42.560
+of the object is 5
+
+291
+00:13:38.920 --> 00:13:46.399
+plus profit of the object is 6 so how
+
+292
+00:13:42.560 --> 00:13:53.839
+much this is V of 3A 6 is how much 3A 6
+
+293
+00:13:46.399 --> 00:14:00.399
+is 6 6 comma V of 3 comma 6 - 1 6 - 5
+
+294
+00:13:53.839 --> 00:14:03.320
+that is 1 3A 1 3A 1 is how much 0 0 + 6
+
+295
+00:14:00.399 --> 00:14:05.399
+so the answer is both are same only so
+
+296
+00:14:03.320 --> 00:14:12.959
+take six
+
+297
+00:14:05.399 --> 00:14:20.120
+only next value 4A 7 V of 4A 7 maximum
+
+298
+00:14:12.959 --> 00:14:23.000
+of V of 3A 7 comma V of 3 comma weight
+
+299
+00:14:20.120 --> 00:14:28.720
+is how much 7 so weight of the object is
+
+300
+00:14:23.000 --> 00:14:33.639
+5 7 - 5 plus profit is 6 so this is 3A 7
+
+301
+00:14:28.720 --> 00:14:39.600
+is how much 7 comma this is V of 3A 7 -
+
+302
+00:14:33.639 --> 00:14:43.279
+5 is 2 3A 2 so 3A 2 is how much 1 + 6 so
+
+303
+00:14:39.600 --> 00:14:46.040
+this is 1 + 6 so this is 7 only both I
+
+304
+00:14:43.279 --> 00:14:47.320
+am getting s or 7 so they are same only
+
+305
+00:14:46.040 --> 00:14:54.719
+take
+
+306
+00:14:47.320 --> 00:14:59.120
+seven V of 4A 8 4A 8 is maximum
+
+307
+00:14:54.720 --> 00:14:59.120
+of V of
+
+308
+00:15:00.000 --> 00:15:07.720
+3A 8 comma V of 3 comma weight is 8
+
+309
+00:15:05.240 --> 00:15:09.959
+minus the weight of an object is 5 +
+
+310
+00:15:07.720 --> 00:15:17.079
+profit is
+
+311
+00:15:09.959 --> 00:15:21.359
+6 3A 8 how much 3A 8 is 7 comma V of 3A
+
+312
+00:15:17.079 --> 00:15:24.880
+8 - 5 is 3 3 comma 3 how much 2 so this
+
+313
+00:15:21.360 --> 00:15:27.480
+is 2 + 6 so how much this is this is
+
+314
+00:15:24.880 --> 00:15:30.480
+seven and this is 8 so answer
+
+315
+00:15:27.480 --> 00:15:33.480
+is8 so this is how the table is filled
+
+316
+00:15:30.480 --> 00:15:36.399
+so I have used the formula for few cells
+
+317
+00:15:33.480 --> 00:15:39.160
+in the last row and this can also be
+
+318
+00:15:36.399 --> 00:15:40.800
+filled directly also without the formula
+
+319
+00:15:39.160 --> 00:15:42.880
+let me show you how to fill this last
+
+320
+00:15:40.800 --> 00:15:45.719
+row
+
+321
+00:15:42.880 --> 00:15:48.199
+directly I am considering fourth object
+
+322
+00:15:45.720 --> 00:15:51.240
+whose weight is five and the profit is
+
+323
+00:15:48.199 --> 00:15:54.479
+six so in fifth column just write six
+
+324
+00:15:51.240 --> 00:15:57.800
+it's profit and what to write on the
+
+325
+00:15:54.480 --> 00:15:59.560
+cells before that same value as the
+
+326
+00:15:57.800 --> 00:16:04.359
+previous row
+
+327
+00:15:59.560 --> 00:16:06.719
+this what you do first then beyond this
+
+328
+00:16:04.360 --> 00:16:09.279
+now the weight is five Beyond this the
+
+329
+00:16:06.720 --> 00:16:11.680
+capacity of the bag is increasing so I
+
+330
+00:16:09.279 --> 00:16:14.199
+can include other objects also so let us
+
+331
+00:16:11.680 --> 00:16:16.519
+check other objects what I can include
+
+332
+00:16:14.199 --> 00:16:18.959
+in the sixth column this object is
+
+333
+00:16:16.519 --> 00:16:23.560
+definitely because its profit is maximum
+
+334
+00:16:18.959 --> 00:16:26.880
+right 5 + 2 7 at 6 nothing will happen
+
+335
+00:16:23.560 --> 00:16:30.959
+so take six only at seven I can consider
+
+336
+00:16:26.880 --> 00:16:34.560
+these two these two so this is six + 1 7
+
+337
+00:16:30.959 --> 00:16:37.040
+7 then at 8 when the bag capacity eight
+
+338
+00:16:34.560 --> 00:16:41.560
+which of the objects I can consider 5 +
+
+339
+00:16:37.040 --> 00:16:44.079
+3 8 so 6 and 2 8 so this is
+
+340
+00:16:41.560 --> 00:16:47.079
+8 so whichever objects that you can
+
+341
+00:16:44.079 --> 00:16:48.758
+consider you just add them and in that
+
+342
+00:16:47.079 --> 00:16:51.519
+capacity if they are fitting in you
+
+343
+00:16:48.759 --> 00:16:53.880
+write on the Max total profit so this is
+
+344
+00:16:51.519 --> 00:16:55.319
+a simple method for filling the cells
+
+345
+00:16:53.880 --> 00:16:57.720
+instead of following this complex
+
+346
+00:16:55.319 --> 00:17:00.560
+formula you can follow that method so I
+
+347
+00:16:57.720 --> 00:17:05.640
+have shown you both
+
+348
+00:17:00.560 --> 00:17:07.280
+solution I have to write down X1 X2 X3
+
+349
+00:17:05.640 --> 00:17:10.039
+X4
+
+350
+00:17:07.280 --> 00:17:13.199
+values now
+
+351
+00:17:10.039 --> 00:17:15.199
+these now for finding these answers
+
+352
+00:17:13.199 --> 00:17:17.520
+actually I'll be taking sequence of
+
+353
+00:17:15.199 --> 00:17:19.240
+decision now see the decisions can be
+
+354
+00:17:17.520 --> 00:17:21.480
+taken only if you have the data yes we
+
+355
+00:17:19.240 --> 00:17:24.120
+have kept the data ready the formula was
+
+356
+00:17:21.480 --> 00:17:25.880
+used for filling this data now I have to
+
+357
+00:17:24.119 --> 00:17:27.639
+take the sequence of decision so how to
+
+358
+00:17:25.880 --> 00:17:29.160
+solve so actually I have to know which
+
+359
+00:17:27.640 --> 00:17:31.480
+object should be included and which
+
+360
+00:17:29.160 --> 00:17:34.360
+should not be included in the bag so let
+
+361
+00:17:31.480 --> 00:17:37.720
+us come with the maximum profit that is
+
+362
+00:17:34.360 --> 00:17:40.600
+eight the last cell this eight is
+
+363
+00:17:37.720 --> 00:17:42.640
+generated only in fourth row and in that
+
+364
+00:17:40.600 --> 00:17:45.360
+previous row you don't find eight
+
+365
+00:17:42.640 --> 00:17:48.160
+anywhere so it means we got this say
+
+366
+00:17:45.360 --> 00:17:51.240
+because of including fourth object only
+
+367
+00:17:48.160 --> 00:17:54.880
+so include the fourth
+
+368
+00:17:51.240 --> 00:17:56.679
+object right profit is eight fourth
+
+369
+00:17:54.880 --> 00:17:58.880
+object is included because eight is not
+
+370
+00:17:56.679 --> 00:18:02.360
+there in previous row now what is the
+
+371
+00:17:58.880 --> 00:18:05.640
+profit of the a a fourth object 8 minus
+
+372
+00:18:02.360 --> 00:18:08.840
+profit is six six so this is
+
+373
+00:18:05.640 --> 00:18:11.240
+two now remaining profit is two now
+
+374
+00:18:08.840 --> 00:18:13.158
+check whether two is there in the third
+
+375
+00:18:11.240 --> 00:18:15.400
+row now I have to check for the third
+
+376
+00:18:13.159 --> 00:18:17.880
+object fourth then third then second and
+
+377
+00:18:15.400 --> 00:18:20.600
+then one so third object two is there
+
+378
+00:18:17.880 --> 00:18:22.960
+yes the same value two is there in the
+
+379
+00:18:20.600 --> 00:18:25.240
+previous row also yes it is there so it
+
+380
+00:18:22.960 --> 00:18:27.760
+means it is not because of third object
+
+381
+00:18:25.240 --> 00:18:30.760
+so don't include third
+
+382
+00:18:27.760 --> 00:18:32.760
+object now let us consider second object
+
+383
+00:18:30.760 --> 00:18:35.120
+is it two there here in the second row
+
+384
+00:18:32.760 --> 00:18:37.679
+yes two is there here is it there in the
+
+385
+00:18:35.120 --> 00:18:40.080
+first row also no so it means this we
+
+386
+00:18:37.679 --> 00:18:43.039
+got because of inclusion of the second
+
+387
+00:18:40.080 --> 00:18:46.158
+object so take this as one so now
+
+388
+00:18:43.039 --> 00:18:49.600
+remaining is 2 - 2 so
+
+389
+00:18:46.159 --> 00:18:51.200
+zero now zero was it there in the first
+
+390
+00:18:49.600 --> 00:18:52.879
+object so I have to consider the first
+
+391
+00:18:51.200 --> 00:18:55.640
+object yes zero was there in the first
+
+392
+00:18:52.880 --> 00:18:57.840
+object row was it there in the zero also
+
+393
+00:18:55.640 --> 00:19:00.240
+yes it was there in the zero also this
+
+394
+00:18:57.840 --> 00:19:03.080
+row also so it means don't include the
+
+395
+00:19:00.240 --> 00:19:04.679
+object so this is the solution so it
+
+396
+00:19:03.080 --> 00:19:08.158
+means which objects are included in the
+
+397
+00:19:04.679 --> 00:19:11.240
+bag X2 and X4 two objects are included
+
+398
+00:19:08.159 --> 00:19:12.919
+in the back so that is X2 is this one X4
+
+399
+00:19:11.240 --> 00:19:16.280
+is this one so total profit will be
+
+400
+00:19:12.919 --> 00:19:18.000
+eight so this is the maximum profit of
+
+401
+00:19:16.280 --> 00:19:21.039
+01 napsack
+
+402
+00:19:18.000 --> 00:19:23.120
+problem next I will solve it using sets
+
+403
+00:19:21.039 --> 00:19:25.039
+method same problem I will solve it
+
+404
+00:19:23.120 --> 00:19:27.840
+using set method now let us solve it
+
+405
+00:19:25.039 --> 00:19:29.679
+using set method set method will try to
+
+406
+00:19:27.840 --> 00:19:32.559
+find all possible possibilities and pick
+
+407
+00:19:29.679 --> 00:19:35.200
+up the best solution so let us see how
+
+408
+00:19:32.559 --> 00:19:38.080
+sets are generated we will prepare a set
+
+409
+00:19:35.200 --> 00:19:40.120
+of order pay that is profit and weight
+
+410
+00:19:38.080 --> 00:19:44.840
+so we'll start with set
+
+411
+00:19:40.120 --> 00:19:47.120
+zero set zero in this we say no profit
+
+412
+00:19:44.840 --> 00:19:48.080
+no weight means nothing is included in
+
+413
+00:19:47.120 --> 00:19:50.600
+the
+
+414
+00:19:48.080 --> 00:19:53.039
+bag then we will consider the first
+
+415
+00:19:50.600 --> 00:19:55.120
+object that is 1 comma 2 whose profit is
+
+416
+00:19:53.039 --> 00:19:58.760
+one and the weight is two so consider
+
+417
+00:19:55.120 --> 00:20:01.678
+the first object so prepare s0 of 1 and
+
+418
+00:19:58.760 --> 00:20:03.679
+and include this first object in the bag
+
+419
+00:20:01.679 --> 00:20:06.600
+so it will be 1 comma
+
+420
+00:20:03.679 --> 00:20:08.880
+2 so actually add one comma to this
+
+421
+00:20:06.600 --> 00:20:10.439
+order pair so we get this one now
+
+422
+00:20:08.880 --> 00:20:14.120
+prepare set
+
+423
+00:20:10.440 --> 00:20:15.280
+one then merge these two order Pairs and
+
+424
+00:20:14.120 --> 00:20:18.158
+prepare this
+
+425
+00:20:15.280 --> 00:20:21.520
+one so this means
+
+426
+00:20:18.159 --> 00:20:24.000
+that we have considered first object so
+
+427
+00:20:21.520 --> 00:20:26.879
+two order pairs are showing that first
+
+428
+00:20:24.000 --> 00:20:29.200
+object is not included first object is
+
+429
+00:20:26.880 --> 00:20:31.080
+included
+
+430
+00:20:29.200 --> 00:20:34.080
+now let us
+
+431
+00:20:31.080 --> 00:20:37.240
+prepare next set by considering second
+
+432
+00:20:34.080 --> 00:20:41.639
+object so that is 2 + 3 so prepare next
+
+433
+00:20:37.240 --> 00:20:45.640
+set that is S11 so add 2 three to these
+
+434
+00:20:41.640 --> 00:20:48.120
+order pairs 2 + 3 so this is 2 comma 3
+
+435
+00:20:45.640 --> 00:20:52.360
+then 2 + 3 is added so this will become
+
+436
+00:20:48.120 --> 00:20:55.760
+3 + 3A
+
+437
+00:20:52.360 --> 00:20:58.000
+5 then this is second set for the second
+
+438
+00:20:55.760 --> 00:21:00.200
+object so when you consider second
+
+439
+00:20:58.000 --> 00:21:04.679
+object to total four order pairs all
+
+440
+00:21:00.200 --> 00:21:07.159
+these are merged so this is 1 2 and 2 3
+
+441
+00:21:04.679 --> 00:21:11.000
+and this is
+
+442
+00:21:07.159 --> 00:21:13.080
+35 this means that no object is included
+
+443
+00:21:11.000 --> 00:21:15.880
+first object is included second object
+
+444
+00:21:13.080 --> 00:21:18.120
+is included both objects are included
+
+445
+00:21:15.880 --> 00:21:24.240
+four possibilities are there so all the
+
+446
+00:21:18.120 --> 00:21:27.959
+order pairs we got then prepare S2 of 1
+
+447
+00:21:24.240 --> 00:21:31.880
+by considering third object 5A 4 add 5A
+
+448
+00:21:27.960 --> 00:21:34.200
+4 to all all so this 5 + 4 so this is 5
+
+449
+00:21:31.880 --> 00:21:38.679
++ 4
+
+450
+00:21:34.200 --> 00:21:43.279
+is 5A 4 only so 5 + 4 so this will
+
+451
+00:21:38.679 --> 00:21:47.320
+become 6 and 6 so this is 6a 6 5 + 4 so
+
+452
+00:21:43.279 --> 00:21:49.440
+this is 7A 7 so five is added to this
+
+453
+00:21:47.320 --> 00:21:53.080
+and four is added to this so This become
+
+454
+00:21:49.440 --> 00:21:56.039
+8 comma 9 8 comma
+
+455
+00:21:53.080 --> 00:22:03.559
+9 now merge all these and take order
+
+456
+00:21:56.039 --> 00:22:04.840
+pair so set three we get it as 0 0 1 2
+
+457
+00:22:03.559 --> 00:22:07.720
+then 2
+
+458
+00:22:04.840 --> 00:22:10.678
+3 then
+
+459
+00:22:07.720 --> 00:22:13.200
+35 then
+
+460
+00:22:10.679 --> 00:22:15.360
+54 then 6
+
+461
+00:22:13.200 --> 00:22:21.080
+6
+
+462
+00:22:15.360 --> 00:22:23.840
+77 now here 8 comma 99 profit is 8 and
+
+463
+00:22:21.080 --> 00:22:26.559
+the weight is 9 so that is exceeding the
+
+464
+00:22:23.840 --> 00:22:28.959
+capacity of the bag don't include that
+
+465
+00:22:26.559 --> 00:22:33.840
+one
+
+466
+00:22:28.960 --> 00:22:37.480
+so we have discarded that right now this
+
+467
+00:22:33.840 --> 00:22:40.080
+is set three in this one if You
+
+468
+00:22:37.480 --> 00:22:42.159
+observe this is profit this is weight
+
+469
+00:22:40.080 --> 00:22:44.320
+profit increase weight increase then
+
+470
+00:22:42.159 --> 00:22:47.000
+from this profit increase weight also
+
+471
+00:22:44.320 --> 00:22:49.520
+increase profit increased and the weight
+
+472
+00:22:47.000 --> 00:22:52.840
+also increased but here profit increase
+
+473
+00:22:49.520 --> 00:22:55.600
+weight is decreased from 5 to 4 this is
+
+474
+00:22:52.840 --> 00:22:58.678
+not possible profit is increasing so the
+
+475
+00:22:55.600 --> 00:23:00.520
+weight is also increasing but weight is
+
+476
+00:22:58.679 --> 00:23:03.640
+decreased how this possible so that's
+
+477
+00:23:00.520 --> 00:23:05.840
+why this order pair are wrong so we have
+
+478
+00:23:03.640 --> 00:23:08.919
+to discard any one so we will discard
+
+479
+00:23:05.840 --> 00:23:13.320
+the one with the Lesser profit smaller
+
+480
+00:23:08.919 --> 00:23:16.159
+profit so 1 2 3 4 5 6 now we have only
+
+481
+00:23:13.320 --> 00:23:18.799
+six order pirs because two were invalid
+
+482
+00:23:16.159 --> 00:23:20.760
+one was this was giving wrong values and
+
+483
+00:23:18.799 --> 00:23:23.320
+this was exceeding the capacity of the
+
+484
+00:23:20.760 --> 00:23:25.760
+back so cutting of this one we call it
+
+485
+00:23:23.320 --> 00:23:27.520
+as dominance rule so with the dominance
+
+486
+00:23:25.760 --> 00:23:30.559
+rule the value is order pair is
+
+487
+00:23:27.520 --> 00:23:34.320
+discarded now I will consider fourth
+
+488
+00:23:30.559 --> 00:23:38.240
+object 6A 5 I will include so I will
+
+489
+00:23:34.320 --> 00:23:41.158
+prepare set 3 one by considering fourth
+
+490
+00:23:38.240 --> 00:23:44.279
+objects 6A 5 so first order pair is 6
+
+491
+00:23:41.159 --> 00:23:48.360
+comma 5 next order pair is 6 and five
+
+492
+00:23:44.279 --> 00:23:52.640
+are added so this is 7A 7 then 6 and
+
+493
+00:23:48.360 --> 00:23:55.959
+five are added so this is 8 comma 8 and
+
+494
+00:23:52.640 --> 00:23:57.440
+then 6 and 5 when they are added it will
+
+495
+00:23:55.960 --> 00:24:02.120
+become 11 comma
+
+496
+00:23:57.440 --> 00:24:05.720
+9 6 and 5 added so this become 12 comma
+
+497
+00:24:02.120 --> 00:24:09.360
+11 and 6 5 when added to 7 and 7 so this
+
+498
+00:24:05.720 --> 00:24:12.520
+becomes 13A
+
+499
+00:24:09.360 --> 00:24:15.360
+12 now I have to prepare set four this
+
+500
+00:24:12.520 --> 00:24:19.200
+is the final set must these order pairs
+
+501
+00:24:15.360 --> 00:24:26.639
+so 0 0 is taken from here 1A 2 and 2
+
+502
+00:24:19.200 --> 00:24:30.399
+comma 3 and 5A 4 6A 6 and 7A 7 they are
+
+503
+00:24:26.640 --> 00:24:35.799
+coming as it is now in one 6A 5 is there
+
+504
+00:24:30.399 --> 00:24:37.840
+so 6A 5 should come before 7A 7 so 6A 5
+
+505
+00:24:35.799 --> 00:24:39.240
+now here again you see the profit is
+
+506
+00:24:37.840 --> 00:24:42.080
+remaining same but the weight is
+
+507
+00:24:39.240 --> 00:24:46.919
+reducing so this should be removed then
+
+508
+00:24:42.080 --> 00:24:49.879
+7 comma 7 is there then 8A 8 is there
+
+509
+00:24:46.919 --> 00:24:53.320
+then remaining 11a 9 exceeding the
+
+510
+00:24:49.880 --> 00:24:55.919
+capacity of the Back 9 11 and 12 so all
+
+511
+00:24:53.320 --> 00:24:58.520
+three order pairs are gone so these are
+
+512
+00:24:55.919 --> 00:25:02.320
+the order pairs I have so if You observe
+
+513
+00:24:58.520 --> 00:25:04.879
+the method is generating all
+
+514
+00:25:02.320 --> 00:25:07.480
+possibilities so this is one easy method
+
+515
+00:25:04.880 --> 00:25:10.520
+of finding all possibilities so the time
+
+516
+00:25:07.480 --> 00:25:13.399
+taken by this one is almost 2 power
+
+517
+00:25:10.520 --> 00:25:15.639
+n now what is the solution so we have
+
+518
+00:25:13.399 --> 00:25:17.959
+already sets now we take the sequence of
+
+519
+00:25:15.640 --> 00:25:23.799
+decisions to solve this one now what is
+
+520
+00:25:17.960 --> 00:25:26.679
+the maximum order of air 8A 8 so 8 comma
+
+521
+00:25:23.799 --> 00:25:28.679
+8 Now using that I will solve this one
+
+522
+00:25:26.679 --> 00:25:32.679
+so the approach is similar like what we
+
+523
+00:25:28.679 --> 00:25:34.600
+saw in the tabular method 8A 8 belongs
+
+524
+00:25:32.679 --> 00:25:40.279
+to set
+
+525
+00:25:34.600 --> 00:25:43.520
+4 but 8A 8 check whether it belonged to
+
+526
+00:25:40.279 --> 00:25:46.279
+set three in the set 3 8A 8 was not
+
+527
+00:25:43.520 --> 00:25:49.080
+there so it doesn't belong to set three
+
+528
+00:25:46.279 --> 00:25:52.240
+therefore fourth object is included
+
+529
+00:25:49.080 --> 00:25:56.039
+because of that only we got 4A
+
+530
+00:25:52.240 --> 00:25:59.159
+4 now I should take an order pair 8
+
+531
+00:25:56.039 --> 00:26:01.440
+comma 8 from this I should subtract the
+
+532
+00:25:59.159 --> 00:26:03.640
+profit and weight of the fourth object
+
+533
+00:26:01.440 --> 00:26:07.240
+so this is profit is six and the weight
+
+534
+00:26:03.640 --> 00:26:10.600
+is five so the order pair is how much 2
+
+535
+00:26:07.240 --> 00:26:13.080
+comma 3 so now I should consider 2 comma
+
+536
+00:26:10.600 --> 00:26:17.158
+3 so now this was the first one now
+
+537
+00:26:13.080 --> 00:26:20.000
+second one 2A 3 now I have to consider
+
+538
+00:26:17.159 --> 00:26:27.320
+third object so check whether it belongs
+
+539
+00:26:20.000 --> 00:26:29.919
+to S3 2A 3 yes it belongs to S3 and 2A 3
+
+540
+00:26:27.320 --> 00:26:33.960
+belongs to s 2 check whether it belongs
+
+541
+00:26:29.919 --> 00:26:36.320
+to S2 s2a 3 is there here also it means
+
+542
+00:26:33.960 --> 00:26:38.720
+this is not because of the third object
+
+543
+00:26:36.320 --> 00:26:43.399
+so therefore third object is not
+
+544
+00:26:38.720 --> 00:26:47.159
+included in the back then now next step
+
+545
+00:26:43.399 --> 00:26:49.879
+is I will consider second object 2A 3
+
+546
+00:26:47.159 --> 00:26:52.720
+belongs to set two for second object 2
+
+547
+00:26:49.880 --> 00:26:58.720
+comma 3 now does it belong to set
+
+548
+00:26:52.720 --> 00:26:58.720
+1 but 2 comma 3
+
+549
+00:26:59.840 --> 00:27:05.320
+doesn't belong to set 1 so 2 comma 3 was
+
+550
+00:27:02.799 --> 00:27:07.760
+belonging to set 2 and 2 comma 3 doesn't
+
+551
+00:27:05.320 --> 00:27:09.799
+belong to set 1 so therefore this is
+
+552
+00:27:07.760 --> 00:27:12.158
+because of the second object that is
+
+553
+00:27:09.799 --> 00:27:14.520
+included now what is the profit and
+
+554
+00:27:12.159 --> 00:27:17.520
+weight of the second object 2A 3 so when
+
+555
+00:27:14.520 --> 00:27:24.000
+you subtract 2 comma 3 from this one 2 -
+
+556
+00:27:17.520 --> 00:27:26.480
+2 is 0 and 3 - 3 is 0 so this gives 0a 0
+
+557
+00:27:24.000 --> 00:27:32.240
+now first object I will consider now the
+
+558
+00:27:26.480 --> 00:27:37.320
+step is four so 0 0 belongs to set 1 and
+
+559
+00:27:32.240 --> 00:27:40.399
+also 0a 0 belongs to set 0 therefore
+
+560
+00:27:37.320 --> 00:27:44.320
+first object is also not
+
+561
+00:27:40.399 --> 00:27:46.479
+included 0a 0 belongs to S1 also s0 also
+
+562
+00:27:44.320 --> 00:27:48.639
+it means this is obtained not because of
+
+563
+00:27:46.480 --> 00:27:50.799
+the first object so first object is also
+
+564
+00:27:48.640 --> 00:27:55.240
+not included then the solution is from
+
+565
+00:27:50.799 --> 00:27:58.760
+bottom if you see 0 1 0 1 so the answer
+
+566
+00:27:55.240 --> 00:28:00.760
+is 0 1 0 1
+
+567
+00:27:58.760 --> 00:28:03.320
+so these two objects are included see
+
+568
+00:28:00.760 --> 00:28:05.960
+the profit is eight so we got the same
+
+569
+00:28:03.320 --> 00:28:08.279
+solution with the help of sets also so
+
+570
+00:28:05.960 --> 00:28:11.760
+this is one more
+
+571
+00:28:08.279 --> 00:28:13.760
+method that's all about 01 nsect problem
+
+572
+00:28:11.760 --> 00:28:15.600
+leave a comment and let me know whether
+
+573
+00:28:13.760 --> 00:28:17.039
+it was easy for you to understand so I
+
+574
+00:28:15.600 --> 00:28:19.799
+have shown you both the steps for
+
+575
+00:28:17.039 --> 00:28:21.679
+solving 01 naap problem right in some
+
+576
+00:28:19.799 --> 00:28:25.600
+places we find tabulation method and
+
+577
+00:28:21.679 --> 00:28:25.600
+some places we find the sets method
