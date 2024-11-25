@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 层叠效果演示</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .container {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            margin: 20px auto;
+            border: 2px solid #ccc;
+        }
+
+        .box {
+            position: absolute; /* 必须有定位 */
+            width: 150px;
+            height: 150px;
+            opacity: 0.9; /* 增加透明度便于观察 */
+            border-radius: 10px;
+        }
+
+        .box1 {
+            background-color: red;
+            z-index: 1; /* 层级较低 */
+            top: 50px;
+            left: 50px;
+        }
+
+        .box2 {
+            background-color: blue;
+            z-index: 2; /* 层级较高 */
+            top: 100px;
+            left: 100px;
+        }
+
+        .box3 {
+            background-color: green;
+            z-index: 3; /* 层级最高 */
+            top: 150px;
+            left: 150px;
+        }
+
+        /* 按钮样式 */
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS 层叠效果演示</h1>
+    <p>点击按钮调整元素的层级顺序</p>
+
+    <!-- 背景容器 -->
+    <div class="container">
+        <div class="box box1" id="box1"></div>
+        <div class="box box2" id="box2"></div>
+        <div class="box box3" id="box3"></div>
+    </div>
+
+    <!-- 按钮组 -->
+    <div>
+        <button onclick="setZIndex('box1', 4)">将红色框放到最前</button>
+        <button onclick="setZIndex('box2', 4)">将蓝色框放到最前</button>
+        <button onclick="setZIndex('box3', 4)">将绿色框放到最前</button>
+        <button onclick="resetZIndex()">重置层级</button>
+    </div>
+
+    <script>
+        // 动态设置 z-index 值
+        function setZIndex(boxId, zIndex) {
+            document.getElementById(boxId).style.zIndex = zIndex;
+        }
+
+        // 重置 z-index
+        function resetZIndex() {
+            document.getElementById('box1').style.zIndex = 1;
+            document.getElementById('box2').style.zIndex = 2;
+            document.getElementById('box3').style.zIndex = 3;
+        }
+    </script>
+</body>
+</html>

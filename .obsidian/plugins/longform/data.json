@@ -1,0 +1,242 @@
+{
+  "version": 3,
+  "projects": {},
+  "selectedDraftVaultPath": "HTML/HTMLDFT/Index.md",
+  "userScriptFolder": null,
+  "sessionStorage": "data",
+  "sessions": [
+    {
+      "start": "2024-11-25T01:44:57.683Z",
+      "total": 23023,
+      "drafts": {
+        "HTML/画布/Index.md": {
+          "total": 409,
+          "scenes": {
+            "---画布---": 0,
+            "00初始学习": 0,
+            "code": 0,
+            "code2": 0,
+            "01交互code": 0,
+            "02交互code": 0,
+            "03SaveRestore": 0,
+            "04交互code": 0,
+            "05交互code": 0,
+            "00最终学习": 409
+          }
+        },
+        "HTML/拖放H_LF/---拖放---.md": {
+          "total": 0,
+          "scenes": {
+            "00初始了解": 0,
+            "01拖放": 0,
+            "02拖放": 0,
+            "03拖放数据类型": 0,
+            "代码样式和说明": 0,
+            "03DataTransfer": 0,
+            "DRAG_preventdefualt": 0,
+            "04DRAG_setDragImage": 0,
+            "06files": 0,
+            "09在线run": 0,
+            "拖放学习目标": 0,
+            "drag&drop事件解释": 0,
+            "HTML 拖放 API - Web API  MDN": 0,
+            "黑马视频笔记1": 0,
+            "最最详细的黑马前端HTML5+CSS3笔记，给大家整理好了_黑马前端资料-CSDN博客 1": 0
+          }
+        },
+        "HTML/form/Index.md": {
+          "total": 1027,
+          "scenes": {
+            "---form---": 0,
+            "0.0": 1027,
+            "code": 0,
+            "code2": 0
+          }
+        },
+        "HTML/HTMLDFT/Index.md": {
+          "total": 21587,
+          "scenes": {
+            "---HTMLDFT---": 19,
+            "001第一章": 1056,
+            "002第二章": 1302,
+            "0241code": 963,
+            "0242code": 1114,
+            "0243code": 1103,
+            "0243CssGrid": 1106,
+            "0251code": 972,
+            "0261code": 1242,
+            "003第三章": 2186,
+            "031优先级": 970,
+            "0311code": 838,
+            "0321code": 2040,
+            "0351code": 727,
+            "0391code": 668,
+            "011第十一章": 1694,
+            "11144code": 912,
+            "11581code": 975,
+            "004第四章": 1700
+          }
+        }
+      }
+    },
+    {
+      "start": "2024-11-24T08:03:48.197Z",
+      "total": 13984,
+      "drafts": {
+        "HTML/拖放H_LF/---拖放---.md": {
+          "total": 16,
+          "scenes": {
+            "00初始了解": 16,
+            "01拖放": 0,
+            "02拖放": 0,
+            "03拖放数据类型": 0,
+            "代码样式和说明": 0,
+            "03DataTransfer": 0,
+            "DRAG_preventdefualt": 0,
+            "04DRAG_setDragImage": 0,
+            "06files": 0,
+            "09在线run": 0,
+            "拖放学习目标": 0,
+            "drag&drop事件解释": 0,
+            "HTML 拖放 API - Web API  MDN": 0,
+            "黑马视频笔记1": 0,
+            "最最详细的黑马前端HTML5+CSS3笔记，给大家整理好了_黑马前端资料-CSDN博客 1": 0
+          }
+        },
+        "HTML/form/form/Index.md": {
+          "total": 0,
+          "scenes": {}
+        },
+        "HTML/form/Index.md": {
+          "total": 4009,
+          "scenes": {
+            "---form---": 19,
+            "0.0": 1188,
+            "code": 1239,
+            "code2": 1563
+          }
+        },
+        "HTML/画布/Index.md": {
+          "total": 9959,
+          "scenes": {
+            "---画布---": 19,
+            "00初始学习": 1487,
+            "code": 959,
+            "code2": 949,
+            "01交互code": 818,
+            "02交互code": 972,
+            "03SaveRestore": 810,
+            "04交互code": 911,
+            "05交互code": 1079,
+            "00最终学习": 1955
+          }
+        }
+      }
+    },
+    {
+      "start": "2024-11-23T06:35:07.682Z",
+      "total": 42275,
+      "drafts": {
+        "HTML/HTML5_LF/Index.md": {
+          "total": 0,
+          "scenes": {
+            "undefined": 0
+          }
+        },
+        "HTML/拖放H_LF/Index.md": {
+          "total": 4768,
+          "scenes": {
+            "1.1拖放": 1601,
+            "初始了解": 942,
+            "在线run": 132,
+            "拖放1.2": 1621,
+            "拖放学习目标": 472
+          }
+        },
+        "HTML/拖放H_LF/---拖放---.md": {
+          "total": 42275,
+          "scenes": {
+            "00初始了解": 1070,
+            "01拖放": 1601,
+            "02拖放": 1630,
+            "03拖放数据类型": 852,
+            "代码样式和说明": 786,
+            "03DataTransfer": 3735,
+            "DRAG_preventdefualt": 395,
+            "04DRAG_setDragImage": 768,
+            "06files": 753,
+            "09在线run": 132,
+            "拖放学习目标": 500,
+            "drag&drop事件解释": 1621,
+            "HTML 拖放 API - Web API  MDN": 2974,
+            "黑马视频笔记1": 329,
+            "最最详细的黑马前端HTML5+CSS3笔记，给大家整理好了_黑马前端资料-CSDN博客 1": 25129
+          }
+        },
+        "HTML/HTML/Index.md": {
+          "total": 0,
+          "scenes": {}
+        },
+        "HTML/HTML/拖放H_LF/---拖放---.md": {
+          "total": 4768,
+          "scenes": {
+            "01拖放": 1601,
+            "02初始了解": 942,
+            "00拖放": 1621,
+            "09在线run": 132,
+            "拖放学习目标": 472
+          }
+        }
+      }
+    }
+  ],
+  "showWordCountInStatusBar": true,
+  "startNewSessionEachDay": true,
+  "sessionGoal": 5000,
+  "applyGoalTo": "all",
+  "notifyOnGoal": true,
+  "countDeletionsForGoal": false,
+  "keepSessionCount": 30,
+  "sessionFile": "longform-sessions.json",
+  "numberScenes": false,
+  "sceneTemplate": null,
+  "workflows": {
+    "Default Workflow": {
+      "name": "Default Workflow",
+      "description": "A starter workflow. Feel free to edit, rename, or delete it and create your own.",
+      "steps": [
+        {
+          "id": "strip-frontmatter",
+          "optionValues": {}
+        },
+        {
+          "id": "remove-links",
+          "optionValues": {
+            "remove-wikilinks": true,
+            "remove-external-links": false
+          }
+        },
+        {
+          "id": "prepend-title",
+          "optionValues": {
+            "format": "$3{#} $1",
+            "separator": "\n\n"
+          }
+        },
+        {
+          "id": "concatenate-text",
+          "optionValues": {
+            "separator": "\\n\\n---\\n\\n"
+          }
+        },
+        {
+          "id": "write-to-note",
+          "optionValues": {
+            "target": "manuscript.md",
+            "open-after": true
+          }
+        }
+      ]
+    }
+  }
+}

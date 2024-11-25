@@ -4,49 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "78c24444a3188a3f",
+        "id": "f1694d63791c4029",
         "type": "tabs",
         "children": [
           {
-            "id": "33813535ca91242f",
+            "id": "d90d81b2aadafa21",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法复习/算法确/1/递归算法.md",
+                "file": "HTML/HTMLDFT/011第十一章.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "递归算法"
+              "title": "011第十一章"
             }
           },
           {
-            "id": "658d039cf057394a",
+            "id": "f666839024cd2333",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法复习/算法确/3/3. 渐进阶的排序.md",
+                "file": "HTML/HTMLDFT/004第四章.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. 渐进阶的排序"
-            }
-          },
-          {
-            "id": "a1383e0738e4f8da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11142033talk.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "11142033talk"
+              "title": "004第四章"
             }
           }
         ],
@@ -64,6 +52,23 @@
         "type": "tabs",
         "children": [
           {
+            "id": "fe7fc63bc3abc446",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "template",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
             "id": "f7d6474a383d99af",
             "type": "leaf",
             "state": {
@@ -76,23 +81,6 @@
             }
           },
           {
-            "id": "fe7fc63bc3abc446",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "tag:#paper",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "搜索"
-            }
-          },
-          {
             "id": "6bef1e987d826520",
             "type": "leaf",
             "state": {
@@ -101,12 +89,23 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
+          },
+          {
+            "id": "c925c16ec48892ac",
+            "type": "leaf",
+            "state": {
+              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
+              "state": {},
+              "icon": "longform",
+              "title": "Longform"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 252.5
   },
   "right": {
     "id": "63a2ce5635c7ad81",
@@ -122,17 +121,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法复习/算法 1.md",
+                "file": "HTML/拖放/拖放1.1.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "算法 1 的反向链接列表"
+              "title": "拖放1.1 的反向链接列表"
             }
           },
           {
@@ -141,12 +140,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "效率/笔记模板/算法.md",
+                "file": "HTML/HTMLDFT/004第四章.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "算法 的出链列表"
+              "title": "004第四章 的出链列表"
             }
           },
           {
@@ -168,14 +167,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "算法复习/算法确/2/2.2.5 回溯.md"
+                "file": "HTML/HTMLDFT/004第四章.md"
               },
               "icon": "lucide-list",
-              "title": "2.2.5 回溯 的大纲"
+              "title": "004第四章 的大纲"
             }
           },
           {
-            "id": "92c4092ab27b2b0b",
+            "id": "f4ea7bd3519afda6",
             "type": "leaf",
             "state": {
               "type": "simple-note-review-sidebar-view",
@@ -185,11 +184,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 276.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -201,57 +200,60 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "simple-note-review:Simple Note Review: Open Sidebar View": false,
-      "simple-note-review:Simple Note Review: Continue Review of Current Note Set": false
+      "simple-note-review:Simple Note Review: Continue Review of Current Note Set": false,
+      "obsidian-kanban:创建新看板": false,
+      "media-extended:Open media": false,
+      "templater-obsidian:Templater": false,
+      "workspaces:管理工作区布局": false
     }
   },
-  "active": "f7d6474a383d99af",
+  "active": "f666839024cd2333",
   "lastOpenFiles": [
-    "算法复习/算法确/3",
-    "算法复习/题目/三、.md",
-    "算法复习/题目/二、简答题.md",
-    "算法复习/算法确/3/3. 渐进阶的排序.md",
-    "算法复习/算法确/7/7. 装载问题.md",
-    "算法复习/算法确/7",
-    "算法复习/算法确/未命名.md",
-    "算法复习/算法确/公式砧板.md",
-    "算法复习/算法确/6/6.1 矩阵连乘.md",
-    "算法复习/算法确/8/8. 贪心算法的证明.md",
-    "11142246talk.md",
-    "11142033talk.md",
-    "11142228talk.md",
-    "算法复习/算法确/6/6. 矩阵连乘.md",
-    "11142018talk.md",
-    "11142105talk.md",
-    "assets/Pasted image 20241114211453.png",
-    "算法复习/算法确/1/递归算法.md",
-    "算法复习/题目/6. N 后问题.md",
-    "算法复习/算法确/1/动态规划.md",
-    "算法复习/算法确/1/分支限界法.md",
-    "算法复习/算法确/1/回溯法.md",
-    "算法复习/算法确/5/5. 流水作业调度.md",
-    "引入信息/信息面板.md",
-    "算法复习/题目/6.1 矩阵连乘.md",
-    "算法复习/题目/2. 选择.md",
-    "算法复习/题目/4. 动态规划.md",
-    "11142000talk.md",
-    "算法复习/算法确/8",
-    "assets/最优装载问题（贪心算法）可以调整清晰度【试讲，不是很好，12月7号上午整体讲，因为有些同学反映发qq群iPad不方便下载视频观看，所以发上来了】PT28S.webp",
-    "assets/最优装载问题（贪心算法）可以调整清晰度【试讲，不是很好，12月7号上午整体讲，因为有些同学反映发qq群iPad不方便下载视频观看，所以发上来了】PT27M25.014S.webp",
-    "assets/最优装载问题（贪心算法）可以调整清晰度【试讲，不是很好，12月7号上午整体讲，因为有些同学反映发qq群iPad不方便下载视频观看，所以发上来了】PT23M28.802S.webp",
-    "assets/最优装载问题（贪心算法）可以调整清晰度【试讲，不是很好，12月7号上午整体讲，因为有些同学反映发qq群iPad不方便下载视频观看，所以发上来了】PT18M15.98S.webp",
-    "assets/最优装载问题（贪心算法）可以调整清晰度【试讲，不是很好，12月7号上午整体讲，因为有些同学反映发qq群iPad不方便下载视频观看，所以发上来了】PT11M39.325S.webp",
-    "assets/Pasted image 20241114134310.png",
-    "assets/7.2 0_1 Knapsack using Branch and BoundDT0S.webp",
-    "assets/13.9 回溯法例5-01背包问题PT7M51.07S.webp",
-    "assets/13.9 回溯法例5-01背包问题PT0.426S.webp",
-    "assets/assets/youtube_prx1psbyp7u.a_en.en.vtt",
-    "assets/assets/youtube_nlmhmb6nzcm.a_en.en.vtt",
-    "assets/assets",
-    "引入信息",
-    "算法复习/算法确/5",
-    "算法复习/算法确/6",
-    "算法复习/算法确/4",
-    "算法复习/算法确/1/assets",
+    "HTML/HTMLDFT/011第十一章.md",
+    "HTML/HTMLDFT/11581code.md",
+    "HTML/HTMLDFT/code/11581code.html",
+    "HTML/HTMLDFT/11144code.md",
+    "HTML/HTMLDFT/1114code.md",
+    "HTML/HTMLDFT/11142code.md",
+    "HTML/HTMLDFT/11143code.md",
+    "HTML/HTMLDFT/code/1114code.html",
+    "HTML/HTMLDFT/004第四章.md",
+    "资料库HTML5/HTML5复习/题目图片.md",
+    "HTML/HTMLDFT/003第三章.md",
+    "HTML/HTMLDFT/0392code颜色合并.md",
+    "HTML/HTMLDFT/0391code.md",
+    "HTML/HTMLDFT/code/0392code.html",
+    "HTML/HTMLDFT/code/0392code",
+    "HTML/HTMLDFT/code/0391code.html",
+    "HTML/HTMLDFT/code/0391code",
+    "HTML/HTMLDFT/0351code.md",
+    "HTML/HTMLDFT/code/testPic.png",
+    "HTML/HTMLDFT/code/屏幕截图 2024-11-01 111959.png",
+    "HTML/HTMLDFT/code/0351code.html",
+    "HTML/HTMLDFT/0311code.md",
+    "HTML/HTMLDFT/code/0312code.html",
+    "HTML/HTMLDFT/031优先级.md",
+    "HTML/HTMLDFT/code/0312code",
+    "HTML/HTMLDFT/0321code.md",
+    "HTML/HTMLDFT/code/0321code.html",
+    "HTML/--HTML--.md",
+    "HTML/拖放H_LF/---拖放---.md",
+    "资料库HTML5/HTML5Paper/card/card完整代码.md",
+    "HTML/form/---form---.md",
+    "HTML/HTMLDFT/002第二章.md",
+    "HTML/HTMLDFT/0261code.md",
+    "Search.md",
+    "总目录2024.md",
+    "HTML/HTMLDFT/---HTMLDFT---.md",
+    "HTML/HTMLDFT/0251code.md",
+    "assets/屏幕截图 2024-11-23 200354.png",
+    "assets/06-HTML5新增表单属性PT1M26.344S.webp",
+    "HTML/拖放H_LF/assets/05-HTML5新增input表单PT2M46.911S.webp",
+    "HTML/拖放H_LF/assets/05-HTML5新增input表单PT1M15.856S.webp",
+    "HTML/拖放H_LF/assets/05-HTML5新增input表单PT46.017S.webp",
+    "HTML/拖放H_LF/assets/02-HTML5提高-新增语义化标签PT8M17.127S.webp",
+    "HTML/拖放H_LF/assets/02-HTML5提高-新增语义化标签PT4M0.146S.webp",
+    "HTML/拖放H_LF/assets/02-HTML5提高-新增语义化标签PT3M8.344S.webp",
     "画板览观/算法/2. 基本思想.canvas",
     "画板览观/算法/0. 源.canvas",
     "Clippings/web/未命名.canvas"

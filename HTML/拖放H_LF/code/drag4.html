@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>拖放自定义图标示例</title>
+  <style>
+    /* 拖动元素样式 */
+    .draggable {
+      width: 100px;
+      height: 100px;
+      background-color: lightblue;
+      text-align: center;
+      line-height: 100px;
+      border: 2px solid #ccc;
+      cursor: move;
+    }
+
+    /* 拖放目标区域样式 */
+    .dropzone {
+      width: 300px;
+      height: 300px;
+      border: 2px dashed #ccc;
+      margin-top: 50px;
+      text-align: center;
+      line-height: 300px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="draggable" draggable="true">
+    拖动我
+  </div>
+
+  <div class="dropzone">
+    放到这里
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const draggableElement = document.querySelector('.draggable');
+      const dropzone = document.querySelector('.dropzone');
+
+      // 设置自定义拖放图标
+      draggableElement.addEventListener('dragstart', function(event) {
+        // 创建自定义图标元素
+        const dragIcon = document.createElement('img');
+        dragIcon.src = 'https://via.placeholder.com/50'; // 示例图标
+        dragIcon.width = 50;
+        dragIcon.height = 50;
+
+        // 使用 setDragImage 设置自定义拖动图标
+        event.dataTransfer.setDragImage(dragIcon, 25, 25); // 图标偏移
+
+        console.log('拖动开始');
+      });
+
+      // 设置允许放置（目标区域）
+      dropzone.addEventListener('dragover', function(event) {
+        event.preventDefault(); // 允许放置
+        dropzone.style.backgroundColor = '#f0f0f0';
+      });
+
+      dropzone.addEventListener('dragleave', function() {
+        dropzone.style.backgroundColor = '#fff';
+      });
+
+      dropzone.addEventListener('drop', function(event) {
+        event.preventDefault();
+        dropzone.style.backgroundColor = '#fff';
+        dropzone.textContent = '已放置元素';
+      });
+    });
+  </script>
+
+</body>
+</html>
