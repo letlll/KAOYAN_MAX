@@ -28,17 +28,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/HTMLDFT/004第四章.md",
+                "file": "资料库HTML5/markdown_output/HTML/第01章习题答案.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "004第四章"
+              "title": "第01章习题答案"
+            }
+          },
+          {
+            "id": "f8e033474be7f325",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "资料库HTML5/markdown_output/HTML/htmlAnswer.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "htmlAnswer"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,11 +116,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 252.5
+    "width": 273.5
   },
   "right": {
     "id": "63a2ce5635c7ad81",
@@ -140,12 +155,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTML/HTMLDFT/004第四章.md",
+                "file": "Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "004第四章 的出链列表"
+              "title": "Search 的出链列表"
             }
           },
           {
@@ -167,10 +182,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/HTMLDFT/004第四章.md"
+                "file": "Search.md"
               },
               "icon": "lucide-list",
-              "title": "004第四章 的大纲"
+              "title": "Search 的大纲"
             }
           },
           {
@@ -207,45 +222,46 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "f666839024cd2333",
+  "active": "f7d6474a383d99af",
   "lastOpenFiles": [
+    "资料库HTML5/markdown_output/HTML/第01章习题答案.md",
+    "资料库HTML5/markdown_output/HTML/htmlAnswer.md",
+    "资料库HTML5/markdown_output/HTML/第02章习题答案.md",
+    "资料库HTML5/markdown_output/HTML/第03章习题答案.md",
+    "资料库HTML5/markdown_output/HTML/第04章习题答案.md",
+    "资料库HTML5/markdown_output/HTML/第05章习题答案.md",
+    "资料库HTML5/markdown_output/HTML/第06章习题答案.md",
+    "资料库HTML5/markdown_output/HTML/第08章习题答案.md",
+    "资料库HTML5/markdown_output/HTML/第07章习题答案.md",
+    "资料库HTML5/markdown_output/HTML/第09章习题答案.md",
+    "资料库HTML5/markdown_output/HTML/第10章习题答案.md",
+    "资料库HTML5/markdown_output/HTML/第11章习题答案.md",
+    "资料库HTML5/markdown_output/代码实现.md",
+    "资料库HTML5/---资料库导览---.md",
+    "资料库HTML5/markdown_output/HTML/Index.md",
+    "资料库HTML5/markdown_output/HTML",
+    "Max/文件转换/PPTX.md",
+    "资料库HTML5/markdown_output",
+    "资料库HTML5/第03章习题答案.docx",
+    "资料库HTML5/第02章习题答案.docx",
+    "资料库HTML5/第10章习题答案.docx",
+    "资料库HTML5/第09章习题答案.docx",
+    "资料库HTML5/第08章习题答案.docx",
+    "资料库HTML5/第11章习题答案.docx",
+    "资料库HTML5/第06章习题答案.docx",
+    "资料库HTML5/第07章习题答案.docx",
+    "HTML/画布/00最终学习.md",
+    "HTML/画布/00初始学习.md",
+    "HTML/画布/03SaveRestore.md",
     "HTML/HTMLDFT/011第十一章.md",
-    "HTML/HTMLDFT/11581code.md",
-    "HTML/HTMLDFT/code/11581code.html",
-    "HTML/HTMLDFT/11144code.md",
-    "HTML/HTMLDFT/1114code.md",
-    "HTML/HTMLDFT/11142code.md",
-    "HTML/HTMLDFT/11143code.md",
-    "HTML/HTMLDFT/code/1114code.html",
-    "HTML/HTMLDFT/004第四章.md",
-    "资料库HTML5/HTML5复习/题目图片.md",
-    "HTML/HTMLDFT/003第三章.md",
-    "HTML/HTMLDFT/0392code颜色合并.md",
-    "HTML/HTMLDFT/0391code.md",
-    "HTML/HTMLDFT/code/0392code.html",
-    "HTML/HTMLDFT/code/0392code",
-    "HTML/HTMLDFT/code/0391code.html",
-    "HTML/HTMLDFT/code/0391code",
-    "HTML/HTMLDFT/0351code.md",
-    "HTML/HTMLDFT/code/testPic.png",
-    "HTML/HTMLDFT/code/屏幕截图 2024-11-01 111959.png",
-    "HTML/HTMLDFT/code/0351code.html",
-    "HTML/HTMLDFT/0311code.md",
-    "HTML/HTMLDFT/code/0312code.html",
-    "HTML/HTMLDFT/031优先级.md",
-    "HTML/HTMLDFT/code/0312code",
-    "HTML/HTMLDFT/0321code.md",
-    "HTML/HTMLDFT/code/0321code.html",
-    "HTML/--HTML--.md",
-    "HTML/拖放H_LF/---拖放---.md",
-    "资料库HTML5/HTML5Paper/card/card完整代码.md",
-    "HTML/form/---form---.md",
     "HTML/HTMLDFT/002第二章.md",
-    "HTML/HTMLDFT/0261code.md",
+    "HTML/HTMLDFT/0243code.md",
     "Search.md",
     "总目录2024.md",
-    "HTML/HTMLDFT/---HTMLDFT---.md",
-    "HTML/HTMLDFT/0251code.md",
+    "HTML/HTMLDFT/004第四章.md",
+    "HTML/HTMLDFT/11581code.md",
+    "HTML/HTMLDFT/code/testPic.png",
+    "HTML/HTMLDFT/code/屏幕截图 2024-11-01 111959.png",
     "assets/屏幕截图 2024-11-23 200354.png",
     "assets/06-HTML5新增表单属性PT1M26.344S.webp",
     "HTML/拖放H_LF/assets/05-HTML5新增input表单PT2M46.911S.webp",

@@ -1,10 +1,100 @@
 {
   "version": 3,
   "projects": {},
-  "selectedDraftVaultPath": "HTML/HTMLDFT/Index.md",
+  "selectedDraftVaultPath": "资料库HTML5/markdown_output/HTML/Index.md",
   "userScriptFolder": null,
   "sessionStorage": "data",
   "sessions": [
+    {
+      "start": "2024-11-26T08:06:07.273Z",
+      "total": 5063,
+      "drafts": {
+        "HTML/画布/Index.md": {
+          "total": 0,
+          "scenes": {
+            "---画布---": 0,
+            "00初始学习": 0,
+            "code": 0,
+            "code2": 0,
+            "01交互code": 0,
+            "02交互code": 0,
+            "03SaveRestore": 0,
+            "04交互code": 0,
+            "05交互code": 0,
+            "00最终学习": 0
+          }
+        },
+        "HTML/HTMLDFT/Index.md": {
+          "total": 0,
+          "scenes": {
+            "---HTMLDFT---": 0,
+            "001第一章": 0,
+            "002第二章": 0,
+            "0241code": 0,
+            "0242code": 0,
+            "0243code": 0,
+            "0243CssGrid": 0,
+            "0251code": 0,
+            "0261code": 0,
+            "003第三章": 0,
+            "031优先级": 0,
+            "0311code": 0,
+            "0321code": 0,
+            "0351code": 0,
+            "0391code": 0,
+            "011第十一章": 0,
+            "11144code": 0,
+            "11581code": 0,
+            "004第四章": 0
+          }
+        },
+        "HTML/拖放H_LF/---拖放---.md": {
+          "total": 0,
+          "scenes": {
+            "00初始了解": 0,
+            "01拖放": 0,
+            "02拖放": 0,
+            "03拖放数据类型": 0,
+            "代码样式和说明": 0,
+            "03DataTransfer": 0,
+            "DRAG_preventdefualt": 0,
+            "04DRAG_setDragImage": 0,
+            "06files": 0,
+            "09在线run": 0,
+            "拖放学习目标": 0,
+            "drag&drop事件解释": 0,
+            "HTML 拖放 API - Web API  MDN": 0,
+            "黑马视频笔记1": 0,
+            "最最详细的黑马前端HTML5+CSS3笔记，给大家整理好了_黑马前端资料-CSDN博客 1": 0
+          }
+        },
+        "HTML/form/Index.md": {
+          "total": 0,
+          "scenes": {
+            "---form---": 0,
+            "0.0": 0,
+            "code": 0,
+            "code2": 0
+          }
+        },
+        "资料库HTML5/markdown_output/HTML/Index.md": {
+          "total": 5063,
+          "scenes": {
+            "第01章习题答案": 328,
+            "第02章习题答案": 519,
+            "第03章习题答案": 459,
+            "第04章习题答案": 320,
+            "第05章习题答案": 263,
+            "第06章习题答案": 588,
+            "第07章习题答案": 477,
+            "第08章习题答案": 507,
+            "第09章习题答案": 495,
+            "第10章习题答案": 594,
+            "第11章习题答案": 513
+          }
+        }
+      }
+    },
     {
       "start": "2024-11-25T01:44:57.683Z",
       "total": 23023,
@@ -212,7 +302,7 @@
         {
           "id": "remove-links",
           "optionValues": {
-            "remove-wikilinks": true,
+            "remove-wikilinks": false,
             "remove-external-links": false
           }
         },
@@ -232,7 +322,7 @@
         {
           "id": "write-to-note",
           "optionValues": {
-            "target": "manuscript.md",
+            "target": "htmlAnswer.md",
             "open-after": true
           }
         }
