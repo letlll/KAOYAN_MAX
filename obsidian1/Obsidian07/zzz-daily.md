@@ -19,10 +19,12 @@ modification date: <% modificationDate %>
 
 << [[<% before_date %>]] | [[<% after_date %>]] >>
 
+<% tp.web.daily_quote() %>
+<% tp.web.random_picture("200x200", "landscape,water") %>
 
 #### 重点关注
 -  ==早上 7 件事==
-	- [x] 花点时间回顾和反思 ✅ 2024-11-24
+	- [ ] 花点时间回顾和反思
 	- [ ] 查看「反向链接」和「工作待办」
 	- [ ] 扫一眼邮件
 	- [ ] 确定最困难的工作，拆分成多个小任务

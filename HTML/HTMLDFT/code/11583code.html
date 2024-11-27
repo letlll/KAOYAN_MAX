@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 动画示例</title>
+<style>
+    @keyframes moveAndRotate {
+        0% { transform: translateX(0) rotate(0deg); background-color: red; }
+        50% { transform: translateX(50px) rotate(180deg); background-color: blue; }
+        100% { transform: translateX(100px) rotate(360deg); background-color: red; }
+    }
+
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        animation: moveAndRotate 3s infinite alternate; /* 修改 animation-direction 值 */
+    }
+</style>
+</head>
+<body>
+    <h1>CSS 动画示例</h1>
+    <div class="box"></div>
+</body>
+</html>
+

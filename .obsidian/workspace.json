@@ -4,56 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "f1694d63791c4029",
+        "id": "1b7249ced4db589e",
         "type": "tabs",
         "children": [
           {
-            "id": "d90d81b2aadafa21",
+            "id": "70dce2e1e483a9f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/HTMLDFT/011第十一章.md",
+                "file": "HTML/HTMLDFT/000回顾.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "011第十一章"
+              "title": "000回顾"
             }
           },
           {
-            "id": "f666839024cd2333",
+            "id": "bfcaf74940efe2e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "资料库HTML5/markdown_output/HTML/第01章习题答案.md",
+                "file": "HTML/HTMLDFT/004第四章.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "第01章习题答案"
-            }
-          },
-          {
-            "id": "f8e033474be7f325",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "资料库HTML5/markdown_output/HTML/htmlAnswer.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "htmlAnswer"
+              "title": "004第四章"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,7 +100,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -222,44 +206,44 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "f7d6474a383d99af",
+  "active": "70dce2e1e483a9f4",
   "lastOpenFiles": [
-    "资料库HTML5/markdown_output/HTML/第01章习题答案.md",
-    "资料库HTML5/markdown_output/HTML/htmlAnswer.md",
-    "资料库HTML5/markdown_output/HTML/第02章习题答案.md",
-    "资料库HTML5/markdown_output/HTML/第03章习题答案.md",
-    "资料库HTML5/markdown_output/HTML/第04章习题答案.md",
-    "资料库HTML5/markdown_output/HTML/第05章习题答案.md",
-    "资料库HTML5/markdown_output/HTML/第06章习题答案.md",
+    "复盘/每日回顾/2024-11-27HTML学习.md",
+    "HTML/HTMLDFT/000回顾.md",
+    "HTML/HTMLDFT/004第四章.md",
+    "HTML/HTMLDFT/HTML中的格式规范.md",
+    "HTML/HTMLDFT/011第十一章.md",
+    "HTML/HTMLDFT/008第八章.md",
+    "HTML/HTMLDFT/010第十章.md",
+    "资料库HTML5/markdown_output/HTML/第10章习题答案.md",
+    "HTML/HTMLDFT/009第九章.md",
+    "资料库HTML5/markdown_output/HTML/第09章习题答案.md",
     "资料库HTML5/markdown_output/HTML/第08章习题答案.md",
     "资料库HTML5/markdown_output/HTML/第07章习题答案.md",
-    "资料库HTML5/markdown_output/HTML/第09章习题答案.md",
-    "资料库HTML5/markdown_output/HTML/第10章习题答案.md",
-    "资料库HTML5/markdown_output/HTML/第11章习题答案.md",
-    "资料库HTML5/markdown_output/代码实现.md",
-    "资料库HTML5/---资料库导览---.md",
-    "资料库HTML5/markdown_output/HTML/Index.md",
-    "资料库HTML5/markdown_output/HTML",
-    "Max/文件转换/PPTX.md",
-    "资料库HTML5/markdown_output",
-    "资料库HTML5/第03章习题答案.docx",
-    "资料库HTML5/第02章习题答案.docx",
-    "资料库HTML5/第10章习题答案.docx",
-    "资料库HTML5/第09章习题答案.docx",
-    "资料库HTML5/第08章习题答案.docx",
-    "资料库HTML5/第11章习题答案.docx",
-    "资料库HTML5/第06章习题答案.docx",
-    "资料库HTML5/第07章习题答案.docx",
-    "HTML/画布/00最终学习.md",
-    "HTML/画布/00初始学习.md",
-    "HTML/画布/03SaveRestore.md",
-    "HTML/HTMLDFT/011第十一章.md",
-    "HTML/HTMLDFT/002第二章.md",
-    "HTML/HTMLDFT/0243code.md",
+    "资料库HTML5/HTML5复习/题目图片.md",
     "Search.md",
-    "总目录2024.md",
-    "HTML/HTMLDFT/004第四章.md",
+    "资料库HTML5/markdown_output/HTML/Index.md",
+    "HTML/HTMLDFT/003第三章.md",
+    "HTML/HTMLDFT/11144code.md",
     "HTML/HTMLDFT/11581code.md",
+    "HTML/HTMLDFT/11582记忆.md",
+    "HTML/HTMLDFT/1158记忆.md",
+    "HTML/HTMLDFT/11583记忆.md",
+    "HTML/HTMLDFT/keyframes.md",
+    "HTML/HTMLDFT/code/ease.html",
+    "HTML/HTMLDFT/code/11583code.html",
+    "HTML/HTMLDFT/code/11582code.html",
+    "资料库HTML5/markdown_output/HTML/第11章习题答案.md",
+    "资料库HTML5/markdown_output/HTML/htmlAnswer.md",
+    "资料库HTML5/markdown_output/HTML/第06章习题答案.md",
+    "资料库HTML5/markdown_output/HTML/第05章习题答案.md",
+    "obsidian/Obsidian08",
+    "obsidian",
+    "Templater/Templater/script/zzz-insert-metadata",
+    "obsidian1/Obsidian07/Metting-work",
+    "obsidian1/Obsidian07/zzz-insert-metadata",
+    "obsidian/style-settings",
+    "obsidian/Obsidian07",
     "HTML/HTMLDFT/code/testPic.png",
     "HTML/HTMLDFT/code/屏幕截图 2024-11-01 111959.png",
     "assets/屏幕截图 2024-11-23 200354.png",

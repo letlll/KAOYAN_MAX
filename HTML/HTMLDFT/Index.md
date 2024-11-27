@@ -6,6 +6,7 @@ longform:
   sceneFolder: /
   scenes:
     - ---HTMLDFT---
+    - 000回顾
     - 001第一章
     - 002第二章
     - - 0241code
@@ -23,7 +24,15 @@ longform:
     - 011第十一章
     - - 11144code
       - 11581code
+      - 1158记忆
+      - 11582记忆
+      - 11583记忆
+      - keyframes
     - 004第四章
+    - HTML中的格式规范
+    - 008第八章
+    - 009第九章
+    - 010第十章
   ignoredFiles:
     - 0392code颜色合并
     - 11143code

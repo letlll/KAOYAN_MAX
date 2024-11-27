@@ -16,5 +16,6 @@ longform:
     - 第09章习题答案
     - 第10章习题答案
     - 第11章习题答案
-  ignoredFiles: []
+  ignoredFiles:
+    - htmlAnswer
 ---
