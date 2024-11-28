@@ -3356,6 +3356,8 @@ Priority
 Progress
 Periodic
 POST
+Pairs
+Photo
 image
 in
 ide
@@ -8118,6 +8120,7 @@ AND
 Agenda
 Arial
 Animation
+AGPS
 one
 ob
 obsidian
@@ -16032,6 +16035,7 @@ WebSocket
 Workers
 WAV
 WebM
+Wifi
 Splitting
 Simplified
 Suite
@@ -20868,6 +20872,7 @@ Css
 ClassName
 CssGrid
 Creation
+Cookie
 Mode
 Markdown
 Mgit
@@ -35941,6 +35946,7 @@ longitude
 local
 lect
 lightblue
+lambda
 Latex
 LaTeX
 Lv
@@ -39000,6 +39006,7 @@ kinds
 keyboard
 keywords
 keyframes
+keyName
 xi
 xzz
 xv
@@ -51220,6 +51227,7 @@ pdfLaTeX
 pixels
 progress
 preventdefualt
+podcast
 IHDR
 IDATx
 II
@@ -54307,6 +54315,7 @@ Feedback
 Flash
 Formats
 Format
+Formula
 ZQ
 ZXXddd
 ZC
@@ -58741,6 +58750,8 @@ Href
 Hypertext
 Hyperlink
 HTMLDFT
+HTTPS
+Haversine
 XY
 Xy
 XXX
@@ -64692,6 +64703,7 @@ Barrett
 Blow
 Brief
 Blend
+Blog
 DJ
 DM
 Dkff
@@ -66168,6 +66180,7 @@ Dates
 DOCTYPE
 DRAG
 Duration
+Delta
 YYY
 YYYM
 Yj
@@ -69221,6 +69234,7 @@ Global
 GET
 Gradient
 Geolocation
+GPS
 rY
 rQ
 rXX
