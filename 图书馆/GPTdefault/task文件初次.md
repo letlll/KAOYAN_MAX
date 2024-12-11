@@ -1,4 +1,4 @@
-[Task](../../HTML/Task.md)
+[Task](../../HTMLdone/Task.md)
 
 要在 Obsidian 中创建一个 `task` 文件，并使用 Tasks 插件来分别记录不同类别的任务（如 `Today Tasks`、`Pending Tasks`、`Overtime Tasks` 和 `Done Tasks`），同时限定任务只显示在特定文件夹中的任务，你可以根据以下示例进行编写。
 

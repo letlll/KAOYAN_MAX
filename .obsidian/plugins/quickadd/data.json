@@ -2,13 +2,13 @@
   "choices": [
     {
       "id": "8b9d82d8-0ca4-492c-8b5f-e72d14a526c0",
-      "name": "HTMLdefault",
+      "name": "第一章",
       "type": "Template",
       "command": true,
-      "templatePath": "Templater/Templater/HtmlDFT.md",
+      "templatePath": "Templater/中间件/中间件1.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "HTML/HTMLDFT/{{value}}"
+        "format": "中间件/第一章/{{value}}"
       },
       "folder": {
         "enabled": false,
@@ -23,7 +23,7 @@
         "direction": "vertical",
         "focus": true
       },
-      "openFile": false,
+      "openFile": true,
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
