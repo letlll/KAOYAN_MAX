@@ -1,0 +1,34 @@
+<body>
+  <h3>绘制笑脸</h3>
+  <hr>
+  <canvas id="smileyCanvas" width="200" height="200" style="border:1px solid;"></canvas>
+  <script>
+    var canvas = document.getElementById("smileyCanvas");
+    var ctx = canvas.getContext("2d");
+
+    // 绘制黄色笑脸底部
+    ctx.beginPath();
+    ctx.arc(100, 100, 80, 0, 2 * Math.PI); // 圆心(100,100)，半径80
+    ctx.fillStyle = "yellow"; // 填充黄色
+    ctx.fill();
+
+    // 绘制左眼
+    ctx.beginPath();
+    ctx.arc(70, 80, 10, 0, 2 * Math.PI); // 圆心(70,80)，半径10
+    ctx.fillStyle = "black"; // 填充黑色
+    ctx.fill();
+
+    // 绘制右眼
+    ctx.beginPath();
+    ctx.arc(130, 80, 10, 0, 2 * Math.PI); // 圆心(130,80)，半径10
+    ctx.fillStyle = "black"; // 填充黑色
+    ctx.fill();
+
+    // 绘制嘴巴
+    ctx.beginPath();
+    ctx.arc(100, 100, 50, 0, Math.PI); // 圆心(100,100)，半径50，绘制半圆
+    ctx.strokeStyle = "black"; // 描边黑色
+    ctx.lineWidth = 3; // 线条宽度
+    ctx.stroke();
+  </script>
+</body>

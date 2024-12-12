@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 动画与过渡效果演示</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .box {
+            margin: 20px auto;
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            transition: all 1s ease; /* 默认过渡时间 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            color: black;
+        }
+
+        .animate-box {
+            width: 200px;
+            height: 200px;
+            margin: 20px auto;
+            background-color: red;
+            animation: example 2s infinite; /* 默认动画 */
+        }
+
+        /* 动画定义 */
+        @keyframes example {
+            0% {
+                transform: scale(1);
+                background-color: red;
+            }
+            50% {
+                transform: scale(1.5);
+                background-color: blue;
+            }
+            100% {
+                transform: scale(1);
+                background-color: red;
+            }
+        }
+
+        select {
+            margin: 10px;
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS 动画与过渡效果演示</h1>
+    <p>选择不同的选项，动态调整过渡时间和动画效果</p>
+
+    <!-- Transition 控制 -->
+    <div>
+        <label for="transition-duration">设置过渡持续时间：</label>
+        <select id="transition-duration" onchange="updateTransition()">
+            <option value="0.5s">0.5秒</option>
+            <option value="1s">1秒</option>
+            <option value="2s">2秒</option>
+            <option value="3s">3秒</option>
+        </select>
+    </div>
+
+    <div class="box" id="transition-box">鼠标悬停查看过渡效果</div>
+
+    <!-- Animation 控制 -->
+    <div>
+        <label for="animation-iteration">设置动画循环次数：</label>
+        <select id="animation-iteration" onchange="updateAnimation()">
+            <option value="infinite">无限循环</option>
+            <option value="1">1次</option>
+            <option value="3">3次</option>
+            <option value="5">5次</option>
+        </select>
+
+        <label for="animation-direction">设置动画方向：</label>
+        <select id="animation-direction" onchange="updateAnimation()">
+            <option value="normal">正常方向</option>
+            <option value="reverse">反向播放</option>
+            <option value="alternate">交替方向</option>
+            <option value="alternate-reverse">交替反向</option>
+        </select>
+    </div>
+
+    <div class="animate-box" id="animate-box"></div>
+
+    <script>
+        // 动态设置 Transition 持续时间
+        function updateTransition() {
+            const box = document.getElementById('transition-box');
+            const duration = document.getElementById('transition-duration').value;
+            box.style.transitionDuration = duration;
+            console.log(`过渡时间设置为: ${duration}`);
+        }
+
+        // 动态设置 Animation 属性
+        function updateAnimation() {
+            const box = document.getElementById('animate-box');
+            const iteration = document.getElementById('animation-iteration').value;
+            const direction = document.getElementById('animation-direction').value;
+
+            box.style.animationIterationCount = iteration;
+            box.style.animationDirection = direction;
+
+            console.log(`动画循环次数设置为: ${iteration}`);
+            console.log(`动画方向设置为: ${direction}`);
+        }
+    </script>
+</body>
+</html>

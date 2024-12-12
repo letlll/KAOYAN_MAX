@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 表单属性与类型示例</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h2 {
+            color: #333;
+            margin-top: 30px;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 3px 6px;
+            border-radius: 4px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            overflow-x: auto;
+        }
+        .example-container {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .example-container h3 {
+            margin-bottom: 10px;
+        }
+        .example-container form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .example-container input, .example-container button {
+            padding: 10px;
+            font-size: 16px;
+        }
+        .example-container input[type="submit"] {
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>HTML 表单属性与类型</h1>
+
+    <h2>1. `<form>` 标签的 `method` 属性可以取哪些属性值？分别表示什么含义？</h2>
+    <ul>
+        <li><strong>`GET`：</strong>通过 URL 传递表单数据，数据附加在 URL 后，适合请求数据。数据量有限，不能包含敏感信息。</li>
+        <li><strong>`POST`：</strong>通过 HTTP 请求体发送表单数据，数据不显示在 URL 中，适合提交敏感信息或较大数据。</li>
+    </ul>
+
+    <h2>2. HTML5 中新增了哪些 `<input>` 标签的常用类型？分别表示什么含义？</h2>
+    <ul>
+        <li><strong>`email`：</strong>用于输入电子邮件地址，浏览器可进行基本的格式验证。</li>
+        <li><strong>`url`：</strong>用于输入 URL 地址，浏览器会验证格式。</li>
+        <li><strong>`tel`：</strong>用于输入电话号码，浏览器提供适当的键盘布局（移动设备上）。</li>
+        <li><strong>`date`：</strong>用于输入日期，显示日期选择器（根据浏览器支持）。</li>
+        <li><strong>`time`：</strong>用于输入时间，显示时间选择器（根据浏览器支持）。</li>
+        <li><strong>`range`：</strong>用于输入数值范围，通常显示一个滑动条。</li>
+        <li><strong>`search`：</strong>用于搜索框，表现上与文本框类似，但专门用于搜索输入。</li>
+    </ul>
+
+    <h2>3. 按钮标签 `<button>` 有哪些类型？分别表示什么含义？</h2>
+    <ul>
+        <li><strong>`submit`：</strong>提交表单（默认值）。</li>
+        <li><strong>`reset`：</strong>重置表单字段。</li>
+        <li><strong>`button`：</strong>普通按钮，可以用于绑定 JavaScript 事件处理程序。</li>
+    </ul>
+
+    <h2>4. HTML5 表单新增 `multiple` 属性可以用于何种类型的 `<input>` 标签？</h2>
+    <ul>
+        <li><strong>`multiple`：</strong>属性可以用于 `<input>` 类型为 `file` 或 `email` 时，允许用户选择多个文件或输入多个电子邮件地址。</li>
+    </ul>
+
+    <h2>5. HTML5 表单新增 `width` 和 `height` 属性可以用于何种类型的 `<input>` 标签？</h2>
+    <ul>
+        <li><strong>`width` 和 `height`：</strong>属性可以用于 `<input>` 类型为 `image` 时，指定提交按钮图像的大小。</li>
+    </ul>
+
+    <h2>6. 如何使用 HTML5 表单新增 `pattern` 属性限制用户只允许输入 6 位阿拉伯数字？</h2>
+    <p>使用 `<input>` 标签并设置 `pattern` 属性为 `\d{6}`，例如：</p>
+    <pre>
+        <code>
+&lt;input type="text" pattern="\d{6}" title="请输入6位阿拉伯数字"&gt;
+        </code>
+    </pre>
+    <p>这将要求用户输入一个恰好由 6 个数字组成的字符串。</p>
+    
+    <p>另一种方式是使用 `[0-9]{6}` 正则表达式，效果相同：</p>
+    <pre>
+        <code>
+&lt;input type="text" pattern="[0-9]{6}" title="请输入6位阿拉伯数字"&gt;
+        </code>
+    </pre>
+
+    <!-- 示例部分 -->
+    <div class="example-container">
+        <h3>表单示例：`GET` 方法和 `POST` 方法</h3>
+        <form action="/submit" method="get">
+            <label for="name">姓名：</label>
+            <input type="text" id="name" name="name" required>
+            <input type="submit" value="使用 GET 提交">
+        </form>
+    </div>
+
+    <div class="example-container">
+        <h3>表单示例：使用 `pattern` 属性限制 6 位数字</h3>
+        <form action="#" method="post" onsubmit="return validateForm()">
+            <label for="num">请输入6位数字：</label>
+            <input type="text" id="num" name="num" pattern="\d{6}" title="请输入6位阿拉伯数字" required>
+            <input type="submit" value="提交">
+        </form>
+    </div>
+
+    <script>
+        // 示例：验证表单输入的 6 位数字
+        function validateForm() {
+            var num = document.getElementById("num").value;
+            var pattern = /^\d{6}$/;
+            if (!pattern.test(num)) {
+                alert("请输入恰好6位数字！");
+                return false; // 阻止表单提交
+            }
+            return true; // 表单可以提交
+        }
+    </script>
+
+</body>
+</html>

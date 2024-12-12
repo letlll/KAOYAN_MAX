@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>拖放示例</title>
+  <style>
+    /* 可拖动的元素样式 */
+    #my-element {
+      width: 100px;
+      height: 100px;
+      background-color: lightblue;
+      text-align: center;
+      line-height: 100px;
+      cursor: move;
+      margin-bottom: 20px;
+    }
+    /* 放置区域样式 */
+    #drop-zone {
+      width: 200px;
+      height: 200px;
+      background-color: lightgray;
+      border: 2px dashed #aaa;
+      text-align: center;
+      line-height: 200px;
+      color: #666;
+    }
+    /* 高亮放置区域 */
+    #drop-zone.highlight {
+      background-color: lightyellow;
+      border-color: orange;
+    }
+  </style>
+</head>
+<body>
+  <!-- 可拖动的元素 -->
+  <div id="my-element">拖动我</div>
+
+  <!-- 放置区域 -->
+  <div id="drop-zone">将元素拖到这里</div>
+
+  <script>
+    // 获取可拖动的元素并设置为可拖动
+    const element = document.getElementById('my-element');
+    element.draggable = true;
+
+    // 拖动开始事件
+    element.addEventListener('dragstart', function(event) {
+      console.log('dragstart');
+      // 设置拖动的数据
+      event.dataTransfer.setData('text/plain', '这是拖动的数据');
+    });
+
+    // 拖动进行中事件
+    element.addEventListener('drag', function(event) {
+      console.log('drag中...');
+      // 这里可以添加一些额外的操作，比如更新拖动元素的状态
+    });
+
+    // 拖动结束事件
+    element.addEventListener('dragend', function(event) {
+      console.log('dragend');
+    });
+
+    // 获取放置区域
+    const dropZone = document.getElementById('drop-zone');
+
+    // 拖动进入目标区域
+    dropZone.addEventListener('dragenter', function(event) {
+      console.log('dragenter');
+      event.preventDefault();
+      dropZone.classList.add('highlight');
+    });
+
+    // 拖动在目标区域上方移动
+    dropZone.addEventListener('dragover', function(event) {
+      console.log('dragover');
+      event.preventDefault();
+    });
+
+    // 拖动离开目标区域
+    dropZone.addEventListener('dragleave', function(event) {
+      console.log('dragleave');
+      dropZone.classList.remove('highlight');
+    });
+
+    // 放置事件
+    dropZone.addEventListener('drop', function(event) {
+      console.log('drop');
+      event.preventDefault();
+      // 获取拖动的数据
+      const data = event.dataTransfer.getData('text/plain');
+      // 更新放置区域内容
+      dropZone.textContent = '放置成功！';
+      dropZone.style.backgroundColor = 'lightgreen';
+      dropZone.classList.remove('highlight');
+    });
+  </script>
+</body>
+</html>

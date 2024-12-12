@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 动画示例</title>
+    <style>
+        @keyframes moveAndChangeColor {
+            0% { transform: translateX(0); background-color: red; }   /* 起点 */
+            50% { transform: translateX(50px); background-color: blue; } /* 中间点 */
+            100% { transform: translateX(0); background-color: red; } /* 终点 */
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            transition: all 1s ease;               /* 控制过渡时间 */
+            animation: moveAndChangeColor 3s infinite normal; /* 无限交替播放 */
+            animation-iteration-count: 3;  /* 动画无限循环 */
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS 动画示例</h1>
+    <div class="box"></div>
+</body>
+</html>

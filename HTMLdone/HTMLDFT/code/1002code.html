@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Storage 示例</title>
+</head>
+<body>
+    <h1>HTML5 Web 存储示例</h1>
+
+    <!-- 数据交互按钮 -->
+    <button onclick="saveData()">保存数据</button>
+    <button onclick="readData()">读取数据</button>
+    <button onclick="deleteData()">删除数据</button>
+    <button onclick="clearData()">清空数据</button>
+
+    <!-- 输入框和按钮 -->
+    <div>
+        <label for="nth-input">输入要获取的第 n 个存储数据：</label>
+        <input id="nth-input" type="number" min="0" placeholder="请输入 n 的值" />
+        <button onclick="handleNthData()">获取第 n 个数据</button>
+    </div>
+
+    <script>
+        // 保存数据
+        function saveData() {
+            localStorage.setItem('username', 'Alice');
+            localStorage.setItem('age', '25');
+            localStorage.setItem('city', 'New York');
+            localStorage.setItem('job', 'Engineer');
+            console.log('数据已保存');
+        }
+
+        // 读取数据
+        function readData() {
+            for (let i = 0; i < localStorage.length; i++) {
+                let keyName = localStorage.key(i);
+                let value = localStorage.getItem(keyName);
+                console.log(`键名：${keyName}, 值：${value}`);
+            }
+        }
+
+        // 删除指定数据
+        function deleteData() {
+            localStorage.removeItem('username');
+            console.log('用户名数据已删除');
+        }
+
+        // 清空所有数据
+        function clearData() {
+            localStorage.clear();
+            console.log('所有数据已清空');
+        }
+
+        // 获取第 n 个存储数据
+        function getNthData(n) {
+            if (n >= 0 && n < localStorage.length) {
+                let keyName = localStorage.key(n);
+                console.log(`第 ${n + 1} 个键名：${keyName}, 值：${localStorage.getItem(keyName)}`);
+            } else {
+                console.log(`输入的 n 值超出范围！当前存储数据的总数为 ${localStorage.length}`);
+            }
+        }
+
+        // 处理输入的 n 值并调用 getNthData
+        function handleNthData() {
+            const nInput = document.getElementById('nth-input');
+            const nValue = parseInt(nInput.value, 10);
+            if (isNaN(nValue) || nValue < 0 || nValue >= localStorage.length) {
+                alert(`请输入有效的 n 值（0 到 ${localStorage.length - 1}）`);
+            } else {
+                getNthData(nValue);
+            }
+        }
+    </script>
+</body>
+</html>
